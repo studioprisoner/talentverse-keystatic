@@ -50,7 +50,7 @@ export default function Footer() {
             <ul role="list" className="grid grid-cols-2 gap-8 sm:grid-cols-3">
               {footerlinks.map((section) => (
                 <li key={section.title}>
-                  <div className="text-base font-semibold uppercase font-dm-sans text-tv-blue">
+                  <div className="text-base font-semibold uppercase font-dm-sans text-malibu-300">
                     {section.title}
                   </div>
                   <ul role="list" className="mt-4 text-base font-dm-sans text-neutral-500">
@@ -71,7 +71,7 @@ export default function Footer() {
             </nav>
             <div className="flex lg:justify-end">
             <form className="max-w-sm">
-              <h2 className="text-base font-semibold uppercase font-dm-sans font-display text-tv-blue">
+              <h2 className="text-base font-semibold uppercase font-dm-sans font-display text-malibu-300">
                 Sign up for our newsletter
               </h2>
               <p className="mt-4 text-base font-dm-sans text-neutral-500">

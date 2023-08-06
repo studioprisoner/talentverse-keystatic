@@ -9,7 +9,7 @@ const  ConenctCard = () => {
 
     return (
         <div className="py-12 mx-auto max-w-7xl sm:px-6 sm:py-16 lg:px-8">
-            <div className="bg-tv-blue rounded-2xl">
+            <div className="bg-malibu-300 rounded-2xl">
                 <div className="py-12 mx-10">
                     <h1 className="text-4xl font-bold text-white">Lets Connect</h1>
                     <div className="mt-10">
@@ -18,14 +18,14 @@ const  ConenctCard = () => {
                                 <a
                                 key={tab.name}
                                 href={tab.href}
-                                className="px-6 py-2 font-medium text-white rounded-full bg-tv-dark-gray"
+                                className="px-6 py-2 font-medium text-white rounded-full bg-shark-700"
                                 >
                                 {tab.name}
                                 </a>
                             ))}
                         </div>
                     </div>
-                    <dl className="grid grid-cols-1 pt-10 mt-10 border-t border-gray-900/10 sm:grid-cols-3 text-tv-gray">
+                    <dl className="grid grid-cols-1 pt-10 mt-10 border-t border-gray-900/10 sm:grid-cols-3 text-shark-700">
                         <div>
                             <dt>Unit 1/32 Edward Street</dt>
                             <dd>Perth 3000 WA</dd>

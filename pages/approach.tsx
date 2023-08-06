@@ -15,15 +15,15 @@ export default function Approach() {
                 <div className="px-6 py-32 mx-auto max-w-7xl sm:py-40 lg:px-8">
                     <div className="max-w-2xl mx-auto lg:mx-0 lg:grid lg:max-w-none lg:grid-cols-2 lg:gap-x-16 lg:gap-y-6 xl:grid-cols-1 xl:grid-rows-1 xl:gap-x-8">
                     <div className="max-w-xl mt-6 lg:mt-0 xl:col-end-1 xl:row-start-1">
-                        <h2 className="font-semibold uppercase text-1xl text-tv-blue">Friction Free Navigation</h2>
+                        <h2 className="font-semibold uppercase text-1xl text-malibu-300">Friction Free Navigation</h2>
                         <p className="text-lg leading-8 text-gray-500">
                         We co-pilot with Employers and Career Seekers to navigate the best employment connection outcomes.
                         </p>
-                        <h2 className="mt-4 font-semibold uppercase text-1xl text-tv-blue">Hiring Risk Mitigation</h2>
+                        <h2 className="mt-4 font-semibold uppercase text-1xl text-malibu-300">Hiring Risk Mitigation</h2>
                         <p className="text-lg leading-8 text-gray-500">
-                        We focus on a <span className="text-tv-blue">proactive</span> and <span className="text-tv-blue">risk management</span> approach, in identifying potential friction barriers to engagement through our pulse review.
+                        We focus on a <span className="text-malibu-300">proactive</span> and <span className="text-malibu-300">risk management</span> approach, in identifying potential friction barriers to engagement through our pulse review.
                         </p>
-                        <h2 className="mt-4 font-semibold uppercase text-1xl text-tv-blue">Pre-Start Ready</h2>
+                        <h2 className="mt-4 font-semibold uppercase text-1xl text-malibu-300">Pre-Start Ready</h2>
                         <p className="text-lg leading-8 text-gray-500">
                         Through our pre-start 3 step approach we co-create a tailored hiring and engagement plan, for the journey ahead.
                         </p>
@@ -37,8 +37,8 @@ export default function Approach() {
                 </div>
             </section>
             <div aria-label="slider" className="flex justify-center mx-auto max-w-7xl">
-                <div className="sticky top-0 hidden w-full h-10 rounded-xl sm:flex bg-tv-dark-gray">
-                    <div className="flex justify-between bg-tv-blue rounded-xl">
+                <div className="sticky top-0 hidden w-full h-10 rounded-xl sm:flex bg-shark-700">
+                    <div className="flex justify-between bg-malibu-300 rounded-xl">
                         <div className="px-10 py-2 text-sm uppercase">
                             Pulse
                         </div>
@@ -86,10 +86,10 @@ export default function Approach() {
                             </div>
                             <div className="w-[48%]">
                                 <div className="ml-20">
-                                    <h3 className="mt-0 mb-8 text-lg uppercase text-tv-blue">
+                                    <h3 className="mt-0 mb-8 text-lg uppercase text-malibu-300">
                                     Expert Navigation
                                     </h3>
-                                    <p className="pb-6 mt-0 mb-6 text-base border-b-2 border-gray-100 text-tv-gray">Providing expert advice based on real job data, reducing friction factors to hiring employment.</p>
+                                    <p className="pb-6 mt-0 mb-6 text-base border-b-2 border-gray-100 text-shark-700">Providing expert advice based on real job data, reducing friction factors to hiring employment.</p>
                                     <div className="text-sm text-gray-500">
                                     <p className="mt-6"><strong>Pulse</strong> review assesses specific job demographic data to enable best hire and employment connection.</p>
                                     <p className="mt-6"><strong>Pre-Start</strong> consult sessions made available to further understand your current and future hiring needs.</p>
@@ -106,10 +106,10 @@ export default function Approach() {
                             
                             <div className="w-[48%]">
                                 <div className="">
-                                    <h3 className="mt-0 mb-8 text-lg uppercase text-tv-blue">
+                                    <h3 className="mt-0 mb-8 text-lg uppercase text-malibu-300">
                                     Talent Search
                                     </h3>
-                                    <p className="pb-6 mt-0 mb-6 text-base border-b-2 border-gray-100 text-tv-gray">Partner services made available to manage and mobilise your complete hiring requirements, on-site or remotely.</p>
+                                    <p className="pb-6 mt-0 mb-6 text-base border-b-2 border-gray-100 text-shark-700">Partner services made available to manage and mobilise your complete hiring requirements, on-site or remotely.</p>
                                     <div className="text-sm text-gray-500">
                                     <p className="mt-6"><strong>Attract</strong> provides job focused EVP solutions specific to the job demographic hiring and employment plan.</p>
                                     <p className="mt-6"><strong>Source</strong> job hire specific pipeline screening, specifically tailored for better applicant connection.</p>
@@ -182,10 +182,10 @@ export default function Approach() {
                             </div>
                             <div className="w-[48%]">
                                 <div className="ml-20">
-                                    <h3 className="mt-0 mb-8 text-lg uppercase text-tv-blue">
+                                    <h3 className="mt-0 mb-8 text-lg uppercase text-malibu-300">
                                     Talent Connect
                                     </h3>
-                                    <p className="pb-6 mt-0 mb-6 text-base border-b-2 border-gray-100 text-tv-gray">Providing expert advice based on real job data, reducing friction factors to hiring employment.</p>
+                                    <p className="pb-6 mt-0 mb-6 text-base border-b-2 border-gray-100 text-shark-700">Providing expert advice based on real job data, reducing friction factors to hiring employment.</p>
                                     <div className="text-sm text-gray-500">
                                     <p className="mt-6"><strong>On-Board</strong> a free concierge support service for new employees and hiring managers.</p>
                                     <p className="mt-6"><strong>Engage</strong> services provide expert concierge advice through all stages of employment.</p>

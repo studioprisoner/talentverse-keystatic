@@ -101,7 +101,7 @@ function CardLink({ link, title, subtitle, icon }) {
   return (
     <a
       href={link}
-      className="relative flex flex-col justify-end px-6 py-8 overflow-hidden bg-tv-dark-gray isolate rounded-3xl"
+      className="relative flex flex-col justify-end px-6 py-8 overflow-hidden bg-shark-700 isolate rounded-3xl"
     >
       <div className="absolute inset-0 -z-10 rounded-2xl ring-1 ring-inset ring-gray-900/10" />
       <div className="flex flex-wrap items-center overflow-hidden text-sm leading-6 text-gray-300 gap-y-1">
@@ -117,10 +117,10 @@ function CardLink({ link, title, subtitle, icon }) {
         <span className="absolute inset-0" />
         {title}
       </h3>
-      <p className="uppercase text-tv-blue">{subtitle}</p>
+      <p className="uppercase text-malibu-300">{subtitle}</p>
       <div className="flex items-center justify-between mt-4">
         <p className="text-sm text-white uppercase">Find out more</p>
-        <div className="px-1 py-1 rounded-full w-9 h-9 bg-tv-blue">
+        <div className="px-1 py-1 rounded-full w-9 h-9 bg-malibu-300">
           <ArrowIcon />
         </div>
       </div>
@@ -148,28 +148,29 @@ export default function Home({
   return (
     <div>
       <Seo />
-      <div className="bg-tv-blue">
+      <div className="bg-malibu-300">
           <div className="overflow-hidden">
             <div className="px-6 pt-24 pb-24 mx-auto max-w-7xl sm:pt-30 lg:px-8 lg:pt-32">
               <div className="max-w-2xl mx-auto gap-x-14 lg:mx-0 lg:flex lg:max-w-none lg:items-center">
                 <div className="w-full max-w-xl lg:shrink-0 xl:max-w-2xl">
-                  <h1 className="text-4xl font-bold tracking-tight font-cabinetgrotesk text-tv-gray sm:text-6xl">
+                <p className="pt-4 font-semibold text-white uppercase">Talent experts co-piloting with you</p>
+                  <h1 className="text-4xl font-bold tracking-tight font-cabinetgrotesk text-shark-700 sm:text-6xl">
                     Our Connection
                   </h1>
-                  <p className="pt-4 font-semibold text-white uppercase">Talent experts co-piloting with you</p>
-                  <p className="relative mt-6 text-lg leading-8 text-tv-gray sm:max-w-md lg:max-w-none">
+                  
+                  <p className="relative mt-6 text-lg leading-8 text-shark-700 sm:max-w-md lg:max-w-none">
                   We work with clients and talent to navigate the best connection and retention outcomes. Our tried and proven approach is simple, co-pilot with you through every stage of your work-life journey.
                   </p>
                   <div className="flex items-center mt-10 gap-x-6">
                     <a
                       href="#"
-                      className="rounded-md bg-tv-dark-gray px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-tv-gray focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                      className="rounded-md bg-shark-700 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-shark-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                     >
                       Employer <span>→</span>
                     </a>
                     <a
-                      href="#"
-                      className="rounded-md bg-tv-dark-gray px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-tv-gray focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                      href="/connect-seeker"
+                      className="rounded-md bg-shark-700 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-shark-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                     >
                       Career Seeker <span>→</span>
                     </a>
@@ -245,13 +246,13 @@ export default function Home({
             </div>
             <div className="">
                       <div>
-                        <h2 className="text-base font-semibold leading-7 uppercase text-tv-blue">Navigating the best plan ahead</h2>
-                        <p className="mt-2 text-3xl font-bold tracking-tight text-tv-gray sm:text-4xl">Our Approach</p>
-                        <p className="mt-6 text-lg leading-8 text-tv-gray">
+                        <h2 className="text-base font-semibold leading-7 uppercase text-malibu-300">Navigating the best plan ahead</h2>
+                        <p className="mt-2 text-3xl font-bold tracking-tight text-shark-700 sm:text-4xl">Our Approach</p>
+                        <p className="mt-6 text-lg leading-8 text-shark-700">
                         Before every take off we want to understand both client and talent individual needs. Through our 3-step approach, we co-create the most suitable talent plan for you.
                         </p>
                         <p className="mt-6">
-                          <a href="#" className="text-sm font-semibold leading-6 text-tv-blue hover:text-tv-gray">
+                          <a href="#" className="text-sm font-semibold leading-6 text-malibu-300 hover:text-shark-700">
                             Learn more <span aria-hidden="true">→</span>
                           </a>
                         </p>
@@ -259,12 +260,12 @@ export default function Home({
             </div>
           </div>
         </div>
-    <div className="bg-tv-blue">
+    <div className="bg-malibu-300">
       <div className="p-4 py-8 mx-auto max-w-7xl">
       <div>
             <p className="text-base font-semibold leading-7 text-white uppercase">Experts Co-piloting with you</p>
-            <h2 className="text-3xl font-bold tracking-tight text-tv-gray sm:text-4xl">Our Integrated Services</h2>      
-            <p className="max-w-3xl mt-6 text-lg leading-8 text-tv-gray">
+            <h2 className="text-3xl font-bold tracking-tight text-shark-700 sm:text-4xl">Our Integrated Services</h2>      
+            <p className="max-w-3xl mt-6 text-lg leading-8 text-shark-700">
             Our Integrated Services support the needs of clients and talent, at whatever stage. Our services made available, to minimise the friction experience, and increase your engagement and retention objectives.
             </p>
       </div>
