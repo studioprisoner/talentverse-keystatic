@@ -175,7 +175,7 @@ export default function Approach() {
                             <div className="w-[48%]">
                                 <div className="m-auto">
                                     <img
-                                        src="images/talent-connect.png"
+                                        src="images/talent-connect-graphic.png"
                                         className="h-auto max-w-full"   
                                     />
                                 </div>
