@@ -1,6 +1,6 @@
 import React, { FormEvent, useState } from "react";
 
-export const EmployerContactForm = () => {
+export const SeekerContactForm = () => {
 
     const [isSubmitted, setSubmitted] = useState(false);
     const [firstName, setFirstName] = useState("");
