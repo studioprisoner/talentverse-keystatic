@@ -64,6 +64,7 @@ export const ContactForm = () => {
                         type="text"
                         id="first-name"
                         value={firstName}
+                        onChange={(e) => setFirstName(e.target.value)}
                         autoComplete="given-name"
                         className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-shark-700 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-shark-900 sm:text-sm sm:leading-6"
                         />
@@ -79,6 +80,7 @@ export const ContactForm = () => {
                         type="text"
                         id="last-name"
                         value={lastName}
+                        onChange={(e) => setLastName(e.target.value)}
                         autoComplete="family-name"
                         className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-shark-700 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-shark-900 sm:text-sm sm:leading-6"
                         />
@@ -107,6 +109,7 @@ export const ContactForm = () => {
                         type="text"
                         id="phone-number"
                         value={phone}
+                        onChange={(e) => setPhone(e.target.value)}
                         className="block w-full rounded-md border-0 py-1.5 pl-16 text-gray-900 ring-1 ring-inset ring-shark-700 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-shark-900 sm:text-sm sm:leading-6"
                         />
                     </div>
@@ -120,6 +123,7 @@ export const ContactForm = () => {
                         type="email"
                         id="email"
                         value={email}
+                        onChange={(e) => setEmail(e.target.value)}
                         className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-shark-700 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-shark-900 sm:text-sm sm:leading-6"
                         />
                     </div>
@@ -131,6 +135,7 @@ export const ContactForm = () => {
                         <select
                             id="jobstatus"
                             value={dropDown}
+                            onChange={(e) => setDropDown(e.target.value)}
                             className="mt-2 block w-full rounded-md border-0 py-1.5 pl-3 pr-10 text-gray-900 ring-1 ring-inset ring-shark-700 focus:ring-2 focus:ring-shark-900 sm:text-sm sm:leading-6"
                             defaultValue="Working"
                         >

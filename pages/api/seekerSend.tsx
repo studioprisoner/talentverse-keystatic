@@ -6,8 +6,6 @@ const resend = new Resend(process.env.RESEND_API_KEY);
 export default async function handler( req: NextApiRequest, res: NextApiResponse) {
   console.log('Data', req.body)
 
-
-
   const { firstName, lastName, phone, email, dropDown, radioGroup } = req.body
 
   const messageData = {
