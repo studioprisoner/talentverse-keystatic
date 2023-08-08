@@ -31,6 +31,11 @@ export const NavItems = [
   },
 ];
 
+export const connectLinks = [
+  { name: 'Employer', href: '/connect-employer' },
+  { name: 'Seeker', href: '/connect-seeker' },
+]
+
 export const services = [
   { name: 'Bizcrew', href: '/bizcrew'},
   { name: 'Catchzone', href: '/catchzone'},
@@ -126,7 +131,30 @@ const Header = () => {
         </nav>
         {/* Desktop nav */}
         <nav className="items-center space-x-8 hidden min-[768px]:flex">
-          <a className={cx(baseClasses, pathname === '/connect' ? "border-shark-700 border-b-2" : "border-transparent")} href="/connect">Connect</a>
+        <Popover className="relative">
+            <Popover.Button className={cx(baseClasses, "border-transparent")} >
+              <span>Connect</span>
+            </Popover.Button>
+            <Transition
+              as={Fragment}
+              enter="transition ease-out duration-200"
+              enterFrom="opacity-0 translate-y-1"
+              enterTo="opacity-100 transalte-y-0"
+              leave="tranistion ease-in duration-150"
+              leaveFrom="opacity-100 translate-y-0"
+              leaveTo="opacity-0 translate-y-1"
+            >
+              <Popover.Panel className="absolute z-10 flex w-screen px-4 mt-5 -translate-x-1/2 left-1/2 max-w-max">
+                <div className="flex-auto w-screen max-w-sm p-4 text-sm leading-6 bg-white shadow-lg rounded-3xl ring-1 ring-gray-900/5">
+                {connectLinks.map((item) => (
+                  <div key={item.name} className="relative p-4 rounded-lg hover:bg-gray-50">
+                    <a href={item.href} className="font-semibold uppercase text-shark-500">{item.name}<span className="absolute inset-0" /></a>
+                  </div>
+                ))}
+                </div>
+              </Popover.Panel>
+            </Transition>
+          </Popover>
           <a className={cx(baseClasses, pathname === '/approach' ? "border-shark-700 border-b-2" : "border-transparent")} href="/approach">Our Approach</a>
           <Popover className="relative">
             <Popover.Button className={cx(baseClasses, "border-transparent")} >

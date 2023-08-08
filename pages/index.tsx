@@ -163,7 +163,7 @@ export default function Home({
                   </p>
                   <div className="flex items-center mt-10 gap-x-6">
                     <a
-                      href="#"
+                      href="/connect-employer"
                       className="rounded-md bg-shark-700 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-shark-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                     >
                       Employer <span>→</span>
@@ -172,7 +172,7 @@ export default function Home({
                       href="/connect-seeker"
                       className="rounded-md bg-shark-700 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-shark-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                     >
-                      Career Seeker <span>→</span>
+                      Job Seeker <span>→</span>
                     </a>
                   </div>
                 </div>

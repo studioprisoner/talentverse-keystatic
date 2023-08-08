@@ -1,21 +1,14 @@
 import React, { FormEvent, useState } from "react";
 
-const jobenquriy = [
-    { id: 'yes', title: 'Yes' },
-    { id: 'no', title: 'No' },
-  ]
-
-
-
-export const ContactForm = () => {
+export const EmployerContactForm = () => {
 
     const [isSubmitted, setSubmitted] = useState(false);
     const [firstName, setFirstName] = useState("");
     const [lastName, setLastName] = useState("");
     const [email, setEmail] = useState("");
     const [phone, setPhone] = useState("");
-    const [dropDown, setDropDown] = useState("");
-    const [radioGroup, setRadioGroup] = useState("");
+    const [jobStatus, setjobSatus] = useState("");
+    const [radioGroup, setRadioGroup] = useState("Yes");
 
     const onSubmit = async (e: FormEvent) => {
         e.preventDefault()
@@ -28,7 +21,7 @@ export const ContactForm = () => {
               lastName,
               phone,
               email,
-              dropDown,
+              jobStatus,
               radioGroup
             }),
             headers: {
@@ -46,7 +39,7 @@ export const ContactForm = () => {
     return isSubmitted ? (
 
         <div className="py-12 mx-auto max-w-7xl sm:px-6 sm:py-16 lg:px-8 bg-malibu-300 rounded-xl">
-            <p>Thanks for submitting your details, we'll be in touch.</p>
+            <p className="text-lg font-semibold leading-6 text-white">Thanks for submitting your details, we'll be in touch.</p>
         </div>
 
     ): (
@@ -129,40 +122,70 @@ export const ContactForm = () => {
                     </div>
                     </div>
                     <div className="sm:col-span-4">
-                        <label htmlFor="location" className="block text-base font-semibold text-shark-700">
-                            Job Status
-                        </label>
-                        <select
-                            id="jobstatus"
-                            value={dropDown}
-                            onChange={(e) => setDropDown(e.target.value)}
-                            className="mt-2 block w-full rounded-md border-0 py-1.5 pl-3 pr-10 text-gray-900 ring-1 ring-inset ring-shark-700 focus:ring-2 focus:ring-shark-900 sm:text-sm sm:leading-6"
-                            defaultValue="Working"
-                        >
-                            <option>Working</option>
-                            <option>Not Working</option>
-                        </select>
+                        <label className="block text-base font-semibold text-shark-700">Job Status</label>
+                        <fieldset className="mt-4">
+                            <legend className="sr-only">Job Status</legend>
+                            <div className="space-y-4" onChange={(e) => setjobSatus(e.target.value)}>
+                                <div key="employed" className="flex items-center">
+                                    <input
+                                        id="employed"
+                                        type= "radio"
+                                        value="Employed"
+                                        name='jobStatus'
+                                        className="w-4 h-4 text-shark-700 border-shark-700 focus:ring-shark-900"
+                                    />
+                                    <label htmlFor="yes" className="block ml-3 text-sm font-medium leading-6 text-gray-900">
+                                        Employed
+                                    </label>
+                                </div>
+                                <div key="unemployed" className="flex items-center">
+                                    <input
+                                        id="unemployed"
+                                        type= "radio"
+                                        value="Not Working"
+                                        name='jobStatus'
+                                        className="w-4 h-4 text-shark-700 border-shark-700 focus:ring-shark-900"
+                                    />
+                                    <label htmlFor="yes" className="block ml-3 text-sm font-medium leading-6 text-gray-900">
+                                        Not Working
+                                    </label>
+                                </div>
+                            </div>
+                            
+                        </fieldset>
                     </div>
                     <div className="sm:col-span-4">
                         <label className="block text-base font-semibold text-shark-700">Job Equriy</label>
                         <p className="text-sm text-white">Do you have a Talentverse job enquiry?</p>
                         <fieldset className="mt-4">
-                            <legend className="sr-only">Notification method</legend>
-                            <div className="space-y-4">
-                            {jobenquriy.map((jobenquriy) => (
-                                <div key={jobenquriy.id} className="flex items-center">
-                                <input
-                                    id={jobenquriy.id}
-                                    type="radio" value={radioGroup}
-                                    defaultChecked={jobenquriy.id === 'email'}
-                                    className="w-4 h-4 text-shark-700 border-shark-700 focus:ring-shark-900"
-                                />
-                                <label htmlFor={jobenquriy.id} className="block ml-3 text-sm font-medium leading-6 text-gray-900">
-                                    {jobenquriy.title}
-                                </label>
+                            <legend className="sr-only">Job Status</legend>
+                            <div className="space-y-4" onChange={(e) => setRadioGroup(e.target.value)}>
+                                <div key="yes" className="flex items-center">
+                                    <input
+                                        id="yes"
+                                        type= "radio"
+                                        value="Yes"
+                                        name='jobEnquiry'
+                                        className="w-4 h-4 text-shark-700 border-shark-700 focus:ring-shark-900"
+                                    />
+                                    <label htmlFor="yes" className="block ml-3 text-sm font-medium leading-6 text-gray-900">
+                                        Yes
+                                    </label>
                                 </div>
-                            ))}
+                                <div key="no" className="flex items-center">
+                                    <input
+                                        id="no"
+                                        type= "radio"
+                                        value="No"
+                                        name='jobEnquiry'
+                                        className="w-4 h-4 text-shark-700 border-shark-700 focus:ring-shark-900"
+                                    />
+                                    <label htmlFor="yes" className="block ml-3 text-sm font-medium leading-6 text-gray-900">
+                                        No
+                                    </label>
+                                </div>
                             </div>
+                            
                         </fieldset>
                     </div>
                 </div>

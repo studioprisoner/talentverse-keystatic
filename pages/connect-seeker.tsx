@@ -1,5 +1,5 @@
 import Seo from "../components/Seo";
-import { ContactForm } from '../components/SeekerConnectForm'
+import { SeekerContactForm } from '../components/SeekerConnectForm'
 
 
 export default function ConnectSeeker() {
@@ -15,7 +15,7 @@ export default function ConnectSeeker() {
                         <p className="mt-4 text-base leading-8 text-shark-700">Our team will connect with you soon to undertake a pre-pulse review, to understand better your current and future employment needs.</p>
                         <p className="text-base leading-8 text-shark-700">A further pre-start meeting will be confirmed to share inital feedback, and review the best employment planning options ahead.</p>
                     </div>
-                    <ContactForm />
+                    <SeekerContactForm />
                 </div>
             </div>
         </div>
