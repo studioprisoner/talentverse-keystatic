@@ -1,8 +1,8 @@
 const tabs = [
-    { name: 'Online', href: '#', current: false },
-    { name: 'Cafe', href: '#', current: false },
-    { name: 'Our Office', href: '#', current: false },
-    { name: 'Your Office', href: '#', current: false },
+    { name: 'Online' },
+    { name: 'Cafe' },
+    { name: 'Our Office'},
+    { name: 'Your Office' },
   ]
 
 const  ConenctCard = () => {
@@ -15,13 +15,11 @@ const  ConenctCard = () => {
                     <div className="mt-10">
                         <div className="flex space-x-4" aria-label="Tabs">
                             {tabs.map((tab) => (
-                                <a
-                                key={tab.name}
-                                href={tab.href}
+                                <span
                                 className="px-6 py-2 font-medium text-white rounded-full bg-shark-700"
                                 >
                                 {tab.name}
-                                </a>
+                                </span>
                             ))}
                         </div>
                     </div>

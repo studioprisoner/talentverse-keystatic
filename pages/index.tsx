@@ -161,7 +161,9 @@ export default function Home({
                   <p className="relative mt-6 text-lg leading-8 text-shark-700 sm:max-w-md lg:max-w-none">
                   We work with clients and talent to navigate the best connection and retention outcomes. Our tried and proven approach is simple, co-pilot with you through every stage of your work-life journey.
                   </p>
-                  <div className="flex items-center mt-10 gap-x-6">
+                  <p className="mt-10 text-lg font-semibold uppercase">Journey with us</p>
+                  <div className="flex items-center mt-4 gap-x-6">
+                    
                     <a
                       href="/connect-employer"
                       className="rounded-md bg-shark-700 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-shark-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
@@ -246,14 +248,14 @@ export default function Home({
             </div>
             <div className="">
                       <div>
-                        <h2 className="text-base font-semibold leading-7 uppercase text-malibu-300">Navigating the best plan ahead</h2>
+                        <h2 className="text-base font-semibold leading-7 uppercase text-malibu-300">Understanding your needs</h2>
                         <p className="mt-2 text-3xl font-bold tracking-tight text-shark-700 sm:text-4xl">Our Approach</p>
                         <p className="mt-6 text-lg leading-8 text-shark-700">
-                        Before every take off we want to understand both client and talent individual needs. Through our 3-step approach, we co-create the most suitable talent plan for you.
+                        Before every take-off we connect with you to understand your specific needs. Through our 3-stag approach, we co-create the best hiring plan to achieve your outcomes.
                         </p>
                         <p className="mt-6">
                           <a href="#" className="text-sm font-semibold leading-6 text-malibu-300 hover:text-shark-700">
-                            Learn more <span aria-hidden="true">→</span>
+                            Find out more about our approach <span aria-hidden="true">→</span>
                           </a>
                         </p>
                       </div>
@@ -263,10 +265,10 @@ export default function Home({
     <div className="bg-malibu-300">
       <div className="p-4 py-8 mx-auto max-w-7xl">
       <div>
-            <p className="text-base font-semibold leading-7 text-white uppercase">Experts Co-piloting with you</p>
+            <p className="text-base font-semibold leading-7 text-white uppercase">Unlocking connection outcomes</p>
             <h2 className="text-3xl font-bold tracking-tight text-shark-700 sm:text-4xl">Our Integrated Services</h2>      
             <p className="max-w-3xl mt-6 text-lg leading-8 text-shark-700">
-            Our Integrated Services support the needs of clients and talent, at whatever stage. Our services made available, to minimise the friction experience, and increase your engagement and retention objectives.
+            Our integrated Services support your needs at each stage. Our services aim to eliminate the friction hiring connection, for a more sustainable employment experience.
             </p>
       </div>
       <div className="grid max-w-2xl grid-cols-1 gap-8 mx-auto mt-8 sm:gap-32 auto-rows-fr sm:mt-10 lg:mx-0 lg:max-w-none lg:grid-cols-3">

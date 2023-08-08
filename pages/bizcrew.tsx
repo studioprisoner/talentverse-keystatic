@@ -4,12 +4,6 @@ import ConnectCard from "../components/ConnectCard";
 
 import trainingroom from 'public/images/training-room.webp'
 
-const values = [
-    { label: 'Listen', value: 'We work on 80/20 listening approach.' },
-    { label: 'Clarity', value: 'We partner to provide clarity to your goals.' },
-    { label: 'Care', value: 'We are passionate about your outcomes.' },
-  ]
-
 export default function Bizcrew() {
 
     return(
