@@ -8,35 +8,33 @@ const tabs = [
 const  ConenctCard = () => {
 
     return (
-        <div className="py-12 mx-auto max-w-7xl sm:px-6 sm:py-16 lg:px-8">
-            <div className="bg-malibu-300 rounded-2xl">
-                <div className="py-12 mx-10">
-                    <h1 className="text-4xl font-bold text-white">Lets Connect</h1>
-                    <div className="mt-10">
-                        <div className="flex space-x-4" aria-label="Tabs">
-                            {tabs.map((tab) => (
-                                <span
-                                className="px-6 py-2 font-medium text-white rounded-full bg-shark-700"
-                                >
-                                {tab.name}
-                                </span>
-                            ))}
-                        </div>
+        <div className="mx-auto mt-10 max-w-7xl sm:py-16 bg-malibu-300 rounded-2xl">
+            <div className="py-12 mx-10">
+                <h1 className="text-4xl font-bold text-white">Lets Connect</h1>
+                <div className="mt-10">
+                    <div className="grid grid-flow-col grid-rows-4 gap-y-8 gap-x-24 sm:grid-rows-1" aria-label="Tabs">
+                        {tabs.map((tab) => (
+                            <div
+                            className="px-6 py-2 font-medium text-center text-white rounded-full bg-gun-powder-700"
+                            >
+                            {tab.name}
+                            </div>
+                        ))}
                     </div>
-                    <dl className="grid grid-cols-1 pt-10 mt-10 border-t border-gray-900/10 sm:grid-cols-3 text-shark-700">
-                        <div>
-                            <dt>Unit 1/32 Edward Street</dt>
-                            <dd>Perth 3000 WA</dd>
-                        </div>
-                        <div>
-                            <dt>+61 418 926 107</dt>
-                            <dd>+61 418 945 072</dd>
-                        </div>
-                        <div>
-                            <dt>enquiry@talentverse.com.au</dt>
-                        </div>
-                    </dl>
                 </div>
+                <dl className="grid grid-cols-1 pt-10 mt-10 border-t border-gray-900/10 sm:grid-cols-3 text-shark-900">
+                    <div>
+                        <dt>Unit 1/32 Edward Street</dt>
+                        <dd>Perth 3000 WA</dd>
+                    </div>
+                    <div>
+                        <dt>+61 418 926 107</dt>
+                        <dd>+61 418 945 072</dd>
+                    </div>
+                    <div>
+                        <dt>enquiry@talentverse.com.au</dt>
+                    </div>
+                </dl>
             </div>
         </div>
     )

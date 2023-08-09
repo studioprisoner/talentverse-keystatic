@@ -107,7 +107,7 @@ export default function Footer() {
               />
           </Link>
           <p className="text-sm text-neutral-500">
-            © Talentverse. {new Date().getFullYear()} ABN 55 663 912 927. All rights reserved.
+            © Talentverse. {new Date().getFullYear()} ABN 55 663 912 927. All rights reserved. Employment Agent EA3053
           </p>
         </div>
         </FadeIn>

@@ -44,7 +44,7 @@ export const SeekerContactForm = () => {
 
     ): (
 
-    <div className="py-12 mx-auto max-w-7xl sm:px-6 sm:py-16 lg:px-8 bg-malibu-300 rounded-xl">
+    <div className="px-4 py-12 mx-auto max-w-7xl sm:px-6 sm:py-16 lg:px-8 bg-malibu-300 rounded-xl">
         <form onSubmit={onSubmit}>
             <div className="space-y-12">
                 <div className="grid grid-cols-1 mt-10 gap-x-6 gap-y-8 sm:grid-cols-6">

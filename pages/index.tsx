@@ -1,4 +1,3 @@
-import Link from "next/link";
 import Image from "next/image";
 import type { InferGetStaticPropsType } from "next";
 import { createReader } from "@keystatic/core/reader";
@@ -7,8 +6,6 @@ import { DocumentRenderer } from "@keystatic/core/renderer";
 import config from "../keystatic.config";
 import Seo from "../components/Seo";
 import { inject } from "../utils/slugHelpers";
-import { cx } from "../utils/cx";
-import maybeTruncateTextBlock from "../utils/maybeTruncateTextBlock";
 
 import woman from 'public/images/woman-working-on-computer.webp'
 import warehouseworker from 'public/images/warehouse-worker-man.webp'
@@ -273,7 +270,7 @@ export default function Home({
       </div>
       <div className="grid max-w-2xl grid-cols-1 gap-8 mx-auto mt-8 sm:gap-32 auto-rows-fr sm:mt-10 lg:mx-0 lg:max-w-none lg:grid-cols-3">
             <CardLink
-              link="#"
+              link="/bizcrew"
               title="Bizcrew"
               subtitle="Talent Experts"
               icon="images/rocket.svg"

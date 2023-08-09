@@ -8,11 +8,11 @@ export default function Approach() {
     return (
         <div>
             <Seo />
-            <section className="px-6 pt-24 pb-24 mx-auto max-w-7xl sm:pt-30 lg:px-8 lg:pt-32">
-                <div className="text-center">
-                    <h1 className="text-4xl font-bold tracking-tight lg:text-6xl">Expert Advice - Navigating the best plan ahead.</h1>
+            <section className="px-6 pt-12 pb-12 mx-auto max-w-7xl lg:px-8 lg:pt-32">
+                <div>
+                    <h1 className="text-4xl font-bold tracking-tight lg:text-6xl text-shark-700">Expert Advice - Navigating the best plan ahead.</h1>
                 </div>
-                <div className="px-6 py-32 mx-auto max-w-7xl sm:py-40 lg:px-8">
+                <div className="px-2 py-16 mx-auto max-w-7xl sm:py-20 lg:px-8">
                     <div className="max-w-2xl mx-auto lg:mx-0 lg:grid lg:max-w-none lg:grid-cols-2 lg:gap-x-16 lg:gap-y-6 xl:grid-cols-1 xl:grid-rows-1 xl:gap-x-8">
                     <div className="max-w-xl mt-6 lg:mt-0 xl:col-end-1 xl:row-start-1">
                         <h2 className="font-semibold uppercase text-1xl text-malibu-300">Friction Free Navigation</h2>
@@ -70,23 +70,23 @@ export default function Approach() {
                     </div>
                 </div>
             </div>
-            <section className="py-16">
-                <div className="max-w-6xl mx-auto">
+            <section className="py-4 sm:py-16">
+                <div className="px-4 sm:px-0 sm:mx-auto sm:max-w-6xl">
                     <div>
-                        <div className="relative pb-24">
-                            <span className="absolute top-0 left-1/2 ml-[-30px] w-[60px] h-[60px] block text-center leading-9 bg-gray-700 text-white text-[18px] font-semibold rounded-[50%] border-8 border-white border-solid z-[4]">1</span>
-                            <div className="flex justify-between ">
-                            <div className="w-[48%]">
-                                <div>
+                        <div className="pb-0 mb-16 sm:mb-0 sm:relative sm:pb-24">
+                            <span className="hidden absolute top-0 left-1/2 ml-[-30px] w-[60px] h-[60px] sm:block text-center leading-9 bg-gray-700 text-white text-[18px] font-semibold rounded-[50%] border-8 border-white border-solid z-[4]">1</span>
+                            <div className="justify-between block sm:flex">
+                            <div className="w-[100%] sm:w-[48%]">
+                                <div className="mb-8 sm:mb-0">
                                     <img
                                         src="images/expertnav-image.png"
                                         className="h-auto max-w-full"   
                                     />
                                 </div>
                             </div>
-                            <div className="w-[48%]">
-                                <div className="ml-20">
-                                    <h3 className="mt-0 mb-8 text-lg uppercase text-malibu-300">
+                            <div className="w-full sm:w-[48%]">
+                                <div className="pl-0 ml-0 sm:ml-20">
+                                    <h3 className="mt-0 mb-4 text-lg font-semibold leading-5 uppercase text-malibu-300">
                                     Expert Navigation
                                     </h3>
                                     <p className="pb-6 mt-0 mb-6 text-base border-b-2 border-gray-100 text-shark-700">Providing expert advice based on real job data, reducing friction factors to hiring employment.</p>
@@ -98,15 +98,22 @@ export default function Approach() {
                                 </div>
                             </div>
                         </div>
-                        <span className="overflow-hidden left-1/2 ml-[-1px] absolute w-[2px] h-full bg-gray-300 top-0 z-[2]"></span>
+                        <span className="hidden overflow-hidden left-1/2 ml-[-1px] sm:block absolute w-[2px] h-full bg-gray-300 top-0 z-[2]"></span>
                         </div>
-                        <div className="relative pb-24">
-                            <span className="absolute top-0 left-1/2 ml-[-30px] w-[60px] h-[60px] block text-center leading-[36px] bg-gray-700 text-white text-[18px] font-semibold rounded-[50%] border-8 border-white border-solid z-[4]">2</span>
-                            <div className="flex justify-between ">
-                            
-                            <div className="w-[48%]">
-                                <div className="">
-                                    <h3 className="mt-0 mb-8 text-lg uppercase text-malibu-300">
+                        <div className="relative pb-0 sm:pb-24">
+                            <span className="hidden absolute top-0 left-1/2 ml-[-30px] w-[60px] h-[60px] sm:block text-center leading-[36px] bg-gray-700 text-white text-[18px] font-semibold rounded-[50%] border-8 border-white border-solid z-[4]">2</span>
+                            <div className="justify-between block sm:flex even:flex-row-reverse">
+                            <div className="w-full sm:w-[48%]">
+                                <div className="mb-8 sm:ml-20 ml:0 sm:mb-0">
+                                    <img
+                                        src="images/talent-search.png"
+                                        className="h-auto max-w-full"   
+                                    />
+                                </div>
+                            </div>
+                            <div className="w-full sm:w-[48%]">
+                                <div className="mb-8 even:pl-0 even:pr-0 even:mb-0">
+                                    <h3 className="mt-0 mb-4 text-lg font-semibold leading-5 uppercase text-malibu-300">
                                     Talent Search
                                     </h3>
                                     <p className="pb-6 mt-0 mb-6 text-base border-b-2 border-gray-100 text-shark-700">Partner services made available to manage and mobilise your complete hiring requirements, on-site or remotely.</p>
@@ -117,19 +124,12 @@ export default function Approach() {
                                 </div>
                                 </div>
                             </div>
-                            <div className="w-[48%]">
-                                <div className="ml-20">
-                                    <img
-                                        src="images/talent-search.png"
-                                        className="h-auto max-w-full"   
-                                    />
-                                </div>
-                            </div>
+                            
                         </div>
-                        <span className="overflow-hidden left-1/2 ml-[-1px] absolute w-[2px] h-full bg-gray-300 top-0 z-[2]"></span>
+                        <span className="hidden sm:block overflow-hidden left-1/2 ml-[-1px] absolute w-[2px] h-full bg-gray-300 top-0 z-[2]"></span>
                         </div>
                         
-                        <div className="relative py-24 my-10 overflow-hidden bg-gray-900 isolate sm:py-32 rounded-3xl">
+                        <div className="relative py-12 overflow-hidden bg-gray-900 isolate sm:py-32 rounded-3xl">
                             <img
                                 src="images/professional_woman_workplace.webp"
                                 alt=""
@@ -161,28 +161,28 @@ export default function Approach() {
                             </div>
                             <div className="px-6 mx-auto max-w-7xl lg:px-8">
                                 <div className="max-w-2xl mx-auto lg:mx-0">
-                                <h2 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">The Job</h2>
-                                <p className="mt-6 text-lg leading-8 text-gray-300">
+                                <h2 className="pb-12 text-4xl font-bold tracking-tight text-white sm:text-6xl">The Job</h2>
+                                <p className="mt-6 text-lg leading-8 text-white">
                                 Our integrated approach connects outcomes.
                                 </p>
                                 </div>
                             </div>
                             </div>
 
-                        <div className="relative pb-24">
-                            <span className="absolute top-0 left-1/2 ml-[-30px] w-[60px] h-[60px] block text-center leading-9 bg-gray-700 text-white text-[18px] font-semibold rounded-[50%] border-8 border-white border-solid z-[4]">3</span>
-                            <div className="flex justify-between ">
-                            <div className="w-[48%]">
-                                <div className="m-auto">
+                        <div className="mb-16 b-0 sm:mb-0 sm:relative sm:pb-24">
+                            <span className="hidden absolute top-0 left-1/2 ml-[-30px] w-[60px] h-[60px] sm:block text-center leading-9 bg-gray-700 text-white text-[18px] font-semibold rounded-[50%] border-8 border-white border-solid z-[4]">3</span>
+                            <div className="justify-between block sm:flex">
+                            <div className="w-full sm:w-[48%]">
+                                <div className="pl-0 ml-0 sm:ml-20">
                                     <img
                                         src="images/talent-connect-graphic.png"
                                         className="h-auto max-w-full"   
                                     />
                                 </div>
                             </div>
-                            <div className="w-[48%]">
-                                <div className="ml-20">
-                                    <h3 className="mt-0 mb-8 text-lg uppercase text-malibu-300">
+                            <div className="w-full sm:w-[48%]">
+                                <div className="pl-0 ml-0 sm:ml-20">
+                                    <h3 className="mt-0 mb-4 text-lg font-semibold leading-5 uppercase text-malibu-300">
                                     Talent Connect
                                     </h3>
                                     <p className="pb-6 mt-0 mb-6 text-base border-b-2 border-gray-100 text-shark-700">Providing expert advice based on real job data, reducing friction factors to hiring employment.</p>
@@ -193,7 +193,7 @@ export default function Approach() {
                                 </div>
                             </div>
                         </div>
-                        <span className="overflow-hidden left-1/2 ml-[-1px] absolute w-[2px] h-full bg-gray-300 top-0 z-[2]"></span>
+                        <span className="hidden sm:block overflow-hidden left-1/2 ml-[-1px] absolute w-[2px] h-full bg-gray-300 top-0 z-[2]"></span>
                         </div>
                     </div>
                 </div>

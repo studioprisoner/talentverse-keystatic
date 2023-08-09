@@ -3,7 +3,6 @@ import { cx } from "../utils/cx";
 import React from "react";
 import { Fragment } from 'react';
 import { Popover, Transition } from '@headlessui/react';
-import { ChevronDownIcon } from '@heroicons/react/20/solid'
 
 export const baseClasses =
   "no-underline justify-center items-center focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-1 text-malibu-300 uppercase px-0 hover:text-cyan-700 hover:bg-none bg-none font-medium shrink-0";
@@ -52,6 +51,13 @@ const Header = () => {
         {/* Nav items */}
         <div className="grid grid-flow-row not-prose">
           <ul className="py-2 font-semibold uppercase">
+          <li className="mt-4">
+              <ul>
+                <span className=" text-malibu-300">Connect</span>
+                <li  className="mt-4 ml-4 text-sm text-shark-300"><a href="/connect-employer" title="Bizcrew">Employer</a></li>
+                <li  className="mt-4 ml-4 text-sm text-shark-300"><a href="/connect-seeker" title="Bizcrew">Job Seeker</a></li>
+              </ul>
+            </li>
             <li className="mt-4 text-malibu-300"><a href="/connect" title="Connect With Us">Connect</a></li>
             <li className="mt-4 text-malibu-300"><a href="/approach" title="Our Approach">Our Approach</a></li>
             <li className="mt-4">
