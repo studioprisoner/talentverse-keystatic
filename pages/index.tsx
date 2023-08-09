@@ -150,9 +150,8 @@ export default function Home({
             <div className="px-6 pt-24 pb-24 mx-auto max-w-7xl sm:pt-30 lg:px-8 lg:pt-32">
               <div className="max-w-2xl mx-auto gap-x-14 lg:mx-0 lg:flex lg:max-w-none lg:items-center">
                 <div className="w-full max-w-xl lg:shrink-0 xl:max-w-2xl">
-                <p className="pt-4 font-semibold text-white uppercase">Talent experts co-piloting with you</p>
-                  <h1 className="text-4xl font-bold tracking-tight font-cabinetgrotesk text-shark-700 sm:text-6xl">
-                    Our Connection
+                  <h1 className="text-5xl font-bold tracking-tight text-white font-cabinetgrotesk sm:text-6xl">
+                  Navigate talent attraction and retention
                   </h1>
                   
                   <p className="relative mt-6 text-lg leading-8 text-shark-700 sm:max-w-md lg:max-w-none">
