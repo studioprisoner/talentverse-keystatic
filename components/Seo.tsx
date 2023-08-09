@@ -14,7 +14,7 @@ const defaultMeta = {
   description:
     "We work with clients and talent to navigate the best connection and retention outcomes.",
   imagePath: "/images/seo-image.png",
-  imageAlt: "cover image for the Keystatic Blog Template",
+  imageAlt: "Talentverse Logo",
 };
 
 export default function Seo({
