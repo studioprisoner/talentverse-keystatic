@@ -1,4 +1,3 @@
-import { usePathname } from "next/navigation";
 import { FadeIn } from './FadeIn'
 import Link from "next/link";
 
@@ -6,7 +5,7 @@ const footerlinks = [
   {
   title: 'Talent Services',
   links: [
-    { title: 'Bizcrew', href: '#' },
+    { title: 'Bizcrew', href: '/bizcrew' },
     { title: 'Catchzone', href: '#' },
     { title: 'Coffee & Career', href: '#' },
     ],
@@ -14,9 +13,8 @@ const footerlinks = [
   {
     title: 'Our Company',
     links: [
-      { title: 'Our Approach', href: '#' },
-      { title: 'About Us', href: '#' },
-      { title: 'Contact Us', href: '#' },
+      { title: 'Our Approach', href: '/approach' },
+      { title: 'About Us', href: '/about' },
     ],
   },
   {
@@ -107,7 +105,7 @@ export default function Footer() {
               />
           </Link>
           <p className="text-sm text-neutral-500">
-            © Bizcrew Pty Ltd t/as Talentverse. {new Date().getFullYear()} ABN 55 663 912 927. All rights reserved. Employment Agent EA3053
+            © Bizcrew Pty Ltd t/as Talentverse. {new Date().getFullYear()} ABN 55 663 912 927. All rights reserved. Employment Agent EA3053 <Link href="/privacy" className="underline">Privacy Policy</Link>
           </p>
         </div>
         </FadeIn>

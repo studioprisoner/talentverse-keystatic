@@ -1,5 +1,6 @@
 import Seo from "../components/Seo";
 import Image from "next/image";
+import ConnectCard from "../components/ConnectCard";
 
 import trainingroom from 'public/images/training-room.webp'
 
@@ -10,22 +11,22 @@ export default function Approach() {
             <Seo />
             <section className="px-6 pt-12 pb-12 mx-auto max-w-7xl lg:px-8 lg:pt-32">
                 <div>
-                    <h1 className="text-4xl font-bold tracking-tight lg:text-6xl text-shark-700">Expert Advice - Navigating the best plan ahead.</h1>
+                    <h1 className="text-4xl font-bold tracking-tight lg:text-6xl text-shark-700">Expert Advice - Navigating the best workforce plan.</h1>
                 </div>
                 <div className="px-2 py-16 mx-auto max-w-7xl sm:py-20 lg:px-8">
                     <div className="max-w-2xl mx-auto lg:mx-0 lg:grid lg:max-w-none lg:grid-cols-2 lg:gap-x-16 lg:gap-y-6 xl:grid-cols-1 xl:grid-rows-1 xl:gap-x-8">
                     <div className="max-w-xl mt-6 lg:mt-0 xl:col-end-1 xl:row-start-1">
-                        <h2 className="font-semibold uppercase text-1xl text-malibu-300">Friction Free Navigation</h2>
+                        <h2 className="font-semibold uppercase text-1xl text-malibu-300">Job &amp; Talent Analytics</h2>
                         <p className="text-lg leading-8 text-gray-500">
-                        We co-pilot with Employers and Career Seekers to navigate the best employment connection outcomes.
+                        We review job structures and talent demographics to make effective data-driven decisions, allowing us to target specific talent groups.
                         </p>
-                        <h2 className="mt-4 font-semibold uppercase text-1xl text-malibu-300">Hiring Risk Mitigation</h2>
+                        <h2 className="mt-4 font-semibold uppercase text-1xl text-malibu-300">Attraction Strategy &amp; Talent Pipeline</h2>
                         <p className="text-lg leading-8 text-gray-500">
-                        We focus on a <span className="text-malibu-300">proactive</span> and <span className="text-malibu-300">risk management</span> approach, in identifying potential friction barriers to engagement through our pulse review.
+                        We build tailored attraction campaigns to engage talent groups. We review current recruitment processes and experience drivers to create friction-free talent pipelines.
                         </p>
-                        <h2 className="mt-4 font-semibold uppercase text-1xl text-malibu-300">Pre-Start Ready</h2>
+                        <h2 className="mt-4 font-semibold uppercase text-1xl text-malibu-300">Connection Frameworks</h2>
                         <p className="text-lg leading-8 text-gray-500">
-                        Through our pre-start 3 step approach we co-create a tailored hiring and engagement plan, for the journey ahead.
+                        Through our talent compliance and friction resolving processes, we review onboarding, engagement and offboarding frameworks for better talent retnetion.
                         </p>
                         </div>
                         <Image
@@ -37,7 +38,7 @@ export default function Approach() {
                 </div>
             </section>
             <div aria-label="slider" className="flex justify-center mx-auto max-w-7xl">
-                <div className="sticky top-0 hidden w-full h-10 rounded-xl sm:flex bg-shark-700">
+                <div className="sticky top-0 hidden w-full h-16 rounded-xl sm:flex bg-shark-700">
                     <div className="flex justify-between bg-malibu-300 rounded-xl">
                         <div className="px-10 py-2 text-sm uppercase">
                             Pulse
@@ -46,7 +47,7 @@ export default function Approach() {
                             Pre-Start
                         </div>
                         <div className="px-10 py-2 text-sm uppercase">
-                            Plan
+                            Talent Plan
                         </div>
                     </div>
                     <div className="flex justify-between rounded-xl">
@@ -59,13 +60,19 @@ export default function Approach() {
                         <div className="px-10 py-2 text-sm text-white uppercase">
                             Assess
                         </div>
+                        <div className="px-10 py-2 text-sm text-white uppercase">
+                            Mobilise
+                        </div>
                     </div>
                     <div className="flex justify-between rounded-xl">
                         <div className="px-10 py-2 text-sm text-white uppercase">
-                            On Board
+                            Onboard
                         </div>
                         <div className="px-10 py-2 text-sm text-white uppercase">
                             Engage
+                        </div>
+                        <div className="px-10 py-2 text-sm text-white uppercase">
+                            Offboard
                         </div>
                     </div>
                 </div>
@@ -87,13 +94,13 @@ export default function Approach() {
                             <div className="w-full sm:w-[48%]">
                                 <div className="pl-0 ml-0 sm:ml-20">
                                     <h3 className="mt-0 mb-4 text-lg font-semibold leading-5 uppercase text-malibu-300">
-                                    Expert Navigation
+                                    Talent Navigation
                                     </h3>
-                                    <p className="pb-6 mt-0 mb-6 text-base border-b-2 border-gray-100 text-shark-700">Providing expert advice based on real job data, reducing friction factors to hiring employment.</p>
+                                    <p className="pb-6 mt-0 mb-6 text-base border-b-2 border-gray-100 text-shark-700">Talent experts providing advice and co-creating talent plan with you.</p>
                                     <div className="text-sm text-gray-500">
-                                    <p className="mt-6"><strong>Pulse</strong> review assesses specific job demographic data to enable best hire and employment connection.</p>
-                                    <p className="mt-6"><strong>Pre-Start</strong> consult sessions made available to further understand your current and future hiring needs.</p>
-                                    <p className="mt-6"><strong>Plan</strong> pecifically created to create the best hiring and employment experience.</p>
+                                    <p className="mt-6"><strong>Pulse</strong> - We use qualitive methods to understand your current pre and post hiring process and employment experience, and how to improve it.</p>
+                                    <p className="mt-6"><strong>Pre-Start</strong> - Before deployment boost off, we connect with key hiring people to implement agreed stages of your Talent Plan.</p>
+                                    <p className="mt-6"><strong>Talent Plan</strong> - We connect with you to design a Talent Plan solution that is unique to your job hiring assignment.</p>
                                 </div>
                                 </div>
                             </div>
@@ -116,11 +123,11 @@ export default function Approach() {
                                     <h3 className="mt-0 mb-4 text-lg font-semibold leading-5 uppercase text-malibu-300">
                                     Talent Search
                                     </h3>
-                                    <p className="pb-6 mt-0 mb-6 text-base border-b-2 border-gray-100 text-shark-700">Partner services made available to manage and mobilise your complete hiring requirements, on-site or remotely.</p>
+                                    <p className="pb-6 mt-0 mb-6 text-base border-b-2 border-gray-100 text-shark-700">Outsourcing services to hire and mobilse talent.</p>
                                     <div className="text-sm text-gray-500">
-                                    <p className="mt-6"><strong>Attract</strong> provides job focused EVP solutions specific to the job demographic hiring and employment plan.</p>
-                                    <p className="mt-6"><strong>Source</strong> job hire specific pipeline screening, specifically tailored for better applicant connection.</p>
-                                    <p className="mt-6"><strong>Assess</strong> job hire assessment guarantees all compliance and the other statutory assessment criteria are fully met.</p>
+                                    <p className="mt-6"><strong>Attract</strong> - We provide EVP methods and solutions specific to job demographics and TV talent connection criteria.</p>
+                                    <p className="mt-6"><strong>Source</strong> - We design and implement talent sourcing pipelines and screening processes for safer experience.</p>
+                                    <p className="mt-6"><strong>Assess and Mobilise</strong> - Tailored job hire compliance, fitness for work and other assessment criteria screening provided.</p>
                                 </div>
                                 </div>
                             </div>
@@ -147,6 +154,7 @@ export default function Approach() {
                                 }}
                                 />
                             </div>
+                            
                             <div
                                 className="absolute -top-52 left-1/2 -z-10 -translate-x-1/2 transform-gpu blur-3xl sm:top-[-28rem] sm:ml-16 sm:translate-x-0 sm:transform-gpu"
                                 aria-hidden="true"
@@ -171,7 +179,7 @@ export default function Approach() {
 
                         <div className="mb-16 b-0 sm:mb-0 sm:relative sm:pb-24">
                             <span className="hidden absolute top-0 left-1/2 ml-[-30px] w-[60px] h-[60px] sm:block text-center leading-9 bg-gray-700 text-white text-[18px] font-semibold rounded-[50%] border-8 border-white border-solid z-[4]">3</span>
-                            <div className="justify-between block sm:flex">
+                            <div className="justify-between block pt-16 sm:flex">
                             <div className="w-full sm:w-[48%]">
                                 <div className="pl-0 ml-0 sm:ml-20">
                                     <img
@@ -183,12 +191,13 @@ export default function Approach() {
                             <div className="w-full sm:w-[48%]">
                                 <div className="pl-0 ml-0 sm:ml-20">
                                     <h3 className="mt-0 mb-4 text-lg font-semibold leading-5 uppercase text-malibu-300">
-                                    Talent Connect
+                                    Talent Connection
                                     </h3>
-                                    <p className="pb-6 mt-0 mb-6 text-base border-b-2 border-gray-100 text-shark-700">Providing expert advice based on real job data, reducing friction factors to hiring employment.</p>
+                                    <p className="pb-6 mt-0 mb-6 text-base border-b-2 border-gray-100 text-shark-700">We provide tailored pre and post onboarding solutions for you.</p>
                                     <div className="text-sm text-gray-500">
-                                    <p className="mt-6"><strong>On-Board</strong> a free concierge support service for new employees and hiring managers.</p>
-                                    <p className="mt-6"><strong>Engage</strong> services provide expert concierge advice through all stages of employment.</p>
+                                    <p className="mt-6"><strong>Onboard</strong> - Pre-start and post onboarding pulse reviews and planning to understand better key friction. Concierge and training solutions to support talent and hiring managers.</p>
+                                    <p className="mt-6"><strong>Engage</strong> - Early and mid-engagement talent pulse and coaching solutions to support better employment connections.</p>
+                                    <p className="mt-6"><strong>Offboard</strong> - Outplacement solutions to equipment and support talent for the next working chapters of employment.</p>
                                 </div>
                                 </div>
                             </div>
@@ -199,7 +208,7 @@ export default function Approach() {
                 </div>
             </section>
             <section>
-                
+                <ConnectCard />
             </section>
         </div>
     )
