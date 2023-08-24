@@ -9,8 +9,8 @@ import { inject } from "../utils/slugHelpers";
 
 import woman from 'public/images/woman-working-on-computer.webp'
 import warehouseworker from 'public/images/warehouse-worker-man.webp'
-import womanmanager from 'public/images/woman-manager-in-office.webp'
-import coffeeshop from 'public/images/people-coffee.webp'
+import warehouseworkers from 'public/images/warehouse-workers-3.webp'
+import coffeeshop from 'public/images/people-meeting-for-coffee.webp'
 import trainingroom from 'public/images/training-room.webp'
 
 const reader = createReader("", config);
@@ -151,11 +151,11 @@ export default function Home({
               <div className="max-w-2xl mx-auto gap-x-14 lg:mx-0 lg:flex lg:max-w-none lg:items-center">
                 <div className="w-full max-w-xl lg:shrink-0 xl:max-w-2xl">
                   <h1 className="text-5xl font-bold tracking-tight text-white font-cabinetgrotesk sm:text-6xl">
-                  Navigate talent attraction and retention
+                  Navigate Talent Attraction and Retention
                   </h1>
                   
                   <p className="relative mt-6 text-lg leading-8 text-shark-700 sm:max-w-md lg:max-w-none">
-                  We work with clients and talent to navigate the best connection and retention outcomes. Our tried and proven approach is simple, co-pilot with you through every stage of your work-life journey.
+                  We partner with employers and talent to navigate the best employment connection experience. We co-pilot with you through every stage of your working journey.
                   </p>
                   <p className="mt-10 text-lg font-semibold uppercase">Journey with us</p>
                   <div className="flex items-center mt-4 gap-x-6">
@@ -198,7 +198,7 @@ export default function Home({
                     </div>
                     <div className="relative">
                       <Image
-                        src={womanmanager}
+                        src={warehouseworkers}
                         alt="Female professional standing in a office"
                         priority
                         className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
@@ -244,13 +244,13 @@ export default function Home({
             </div>
             <div className="">
                       <div>
-                        <h2 className="text-base font-semibold leading-7 uppercase text-malibu-300">Understanding your needs</h2>
+                        <h2 className="text-base font-semibold leading-7 uppercase text-malibu-300">Understanding your journey</h2>
                         <p className="mt-2 text-3xl font-bold tracking-tight text-shark-700 sm:text-4xl">Our Approach</p>
                         <p className="mt-6 text-lg leading-8 text-shark-700">
-                        Before every take-off we connect with you to understand your specific needs. Through our 3-stag approach, we co-create the best hiring plan to achieve your outcomes.
+                        Before every take-off we connect with you to understand your specific needs. Through our 3-stage approach, we co-create a tailored plan to achieve your outcomes.
                         </p>
                         <p className="mt-6">
-                          <a href="#" className="text-sm font-semibold leading-6 text-malibu-300 hover:text-shark-700">
+                          <a href="#" className="text-base font-semibold leading-6 text-malibu-300 hover:text-shark-700">
                             Find out more about our approach <span aria-hidden="true">→</span>
                           </a>
                         </p>
@@ -264,7 +264,7 @@ export default function Home({
             <p className="text-base font-semibold leading-7 text-white uppercase">Unlocking connection outcomes</p>
             <h2 className="text-3xl font-bold tracking-tight text-shark-700 sm:text-4xl">Our Integrated Services</h2>      
             <p className="max-w-3xl mt-6 text-lg leading-8 text-shark-700">
-            Our integrated Services support your needs at each stage. Our services aim to eliminate the friction hiring connection, for a more sustainable employment experience.
+            Our integrated service platforms support you at each stage. We remove friction in building of hiring and onboarding connections.
             </p>
       </div>
       <div className="grid max-w-2xl grid-cols-1 gap-8 mx-auto mt-8 sm:gap-32 auto-rows-fr sm:mt-10 lg:mx-0 lg:max-w-none lg:grid-cols-3">
