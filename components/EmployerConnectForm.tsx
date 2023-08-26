@@ -40,7 +40,7 @@ export const EmployerContactForm = () => {
 
     return isSubmitted ? (
 
-        <div className="py-12 mx-auto max-w-7xl sm:px-6 sm:py-16 lg:px-8 bg-malibu-300 rounded-xl">
+        <div className="py-6 mx-auto max-w-7xl sm:px-6 sm:py-8 lg:px-8 bg-malibu-300 rounded-xl">
             <p className="text-lg font-semibold leading-6 text-white">Thanks for submitting your details, we'll be in touch.</p>
         </div>
 

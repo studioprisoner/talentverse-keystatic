@@ -38,8 +38,8 @@ export default function Approach() {
                 </div>
             </section>
             <div aria-label="slider" className="flex justify-center mx-auto max-w-7xl">
-                <div className="sticky top-0 hidden w-full h-16 rounded-xl sm:flex bg-shark-700">
-                    <div className="flex justify-between bg-malibu-300 rounded-xl">
+                <div className="sticky top-0 hidden w-full h-16 rounded-3xl sm:flex bg-shark-700">
+                    <div className="flex justify-between bg-malibu-300 rounded-3xl">
                         <div className="px-10 py-2 text-sm uppercase">
                             Pulse
                         </div>
@@ -81,7 +81,7 @@ export default function Approach() {
                 <div className="px-4 sm:px-0 sm:mx-auto sm:max-w-6xl">
                     <div>
                         <div className="pb-0 mb-16 sm:mb-0 sm:relative sm:pb-24">
-                            <span className="hidden absolute top-0 left-1/2 ml-[-30px] w-[60px] h-[60px] sm:block text-center leading-9 bg-gray-700 text-white text-[18px] font-semibold rounded-[50%] border-8 border-white border-solid z-[4]">1</span>
+                            <span className="hidden absolute top-0 left-1/2 ml-[-30px] w-[60px] h-[60px] sm:block text-center  bg-gray-700 text-white text-[18px] leading-[36px] font-medium rounded-[50%] border-[12px] border-white border-solid z-[4]">1</span>
                             <div className="justify-between block sm:flex">
                             <div className="w-[100%] sm:w-[48%]">
                                 <div className="mb-8 sm:mb-0">
@@ -108,7 +108,7 @@ export default function Approach() {
                         <span className="hidden overflow-hidden left-1/2 ml-[-1px] sm:block absolute w-[2px] h-full bg-gray-300 top-0 z-[2]"></span>
                         </div>
                         <div className="relative pb-0 sm:pb-24">
-                            <span className="hidden absolute top-0 left-1/2 ml-[-30px] w-[60px] h-[60px] sm:block text-center leading-[36px] bg-gray-700 text-white text-[18px] font-semibold rounded-[50%] border-8 border-white border-solid z-[4]">2</span>
+                            <span className="hidden absolute top-0 left-1/2 ml-[-30px] w-[60px] h-[60px] sm:block text-center  bg-gray-700 text-white text-[18px] leading-[36px] font-medium rounded-[50%] border-[12px] border-white border-solid z-[4]">2</span>
                             <div className="justify-between block sm:flex even:flex-row-reverse">
                             <div className="w-full sm:w-[48%]">
                                 <div className="mb-8 sm:ml-20 ml:0 sm:mb-0">
@@ -136,7 +136,7 @@ export default function Approach() {
                         <span className="hidden sm:block overflow-hidden left-1/2 ml-[-1px] absolute w-[2px] h-full bg-gray-300 top-0 z-[2]"></span>
                         </div>
                         
-                        <div className="relative py-12 overflow-hidden bg-gray-900 isolate sm:py-32 rounded-3xl">
+                        <div className="relative py-12 overflow-hidden bg-gray-900 border-[12px] border-white isolate sm:py-32 rounded-3xl">
                             <img
                                 src="images/professional_woman_workplace.webp"
                                 alt=""
@@ -178,7 +178,7 @@ export default function Approach() {
                             </div>
 
                         <div className="mb-16 b-0 sm:mb-0 sm:relative sm:pb-24">
-                            <span className="hidden absolute top-0 left-1/2 ml-[-30px] w-[60px] h-[60px] sm:block text-center leading-9 bg-gray-700 text-white text-[18px] font-semibold rounded-[50%] border-8 border-white border-solid z-[4]">3</span>
+                            <span className="hidden absolute top-0 left-1/2 ml-[-30px] w-[60px] h-[60px] sm:block text-center  bg-gray-700 text-white text-[18px] leading-[36px] font-medium rounded-[50%] border-[12px] border-white border-solid z-[4]">3</span>
                             <div className="justify-between block pt-16 sm:flex">
                             <div className="w-full sm:w-[48%]">
                                 <div className="pl-0 ml-0 sm:ml-20">

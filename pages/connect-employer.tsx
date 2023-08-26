@@ -8,7 +8,7 @@ export default function ConnectEmployer() {
 
         <div>
             <Seo />
-            <div className="py:24 sm:py-32">
+            <div className="py-12 sm:py-16">
                 <div className="px-6 mx-auto max-w-7xl lg:px-8">
                     <div className="mb-10">
                         <h1 className="text-4xl font-bold text-shark-700">Understanding your Employment Objectives</h1>
