@@ -38,7 +38,7 @@ export const connectLinks = [
 export const services = [
   { name: 'Bizcrew', href: '/bizcrew'},
   { name: 'Catchzone', href: '/catchzone'},
-  { name: 'Coffee & Career', href: '/coffee-career'},
+  { name: 'Coffee & Careers', href: '/coffee-career'},
 ]
 
 const Header = () => {

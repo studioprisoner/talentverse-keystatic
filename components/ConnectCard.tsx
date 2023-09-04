@@ -1,14 +1,12 @@
 const tabs = [
-    { name: 'Online' },
-    { name: 'Cafe' },
-    { name: 'Our Office'},
-    { name: 'Your Office' },
+    { name: 'Employer', href: "#" },
+    { name: 'Job Seeker', href: "#" },
   ]
 
 const  ConenctCard = () => {
 
     return (
-        <div className="mx-auto mt-10 max-w-7xl sm:py-16 bg-malibu-300 rounded-2xl">
+        <div className="mx-auto max-w-7xl sm:py-8 bg-malibu-300 rounded-2xl">
             <div className="py-12 mx-10">
                 <h1 className="text-4xl font-bold text-white">Lets Connect</h1>
                 <div className="mt-10">

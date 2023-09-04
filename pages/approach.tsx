@@ -11,22 +11,19 @@ export default function Approach() {
             <Seo />
             <section className="px-6 pt-12 pb-12 mx-auto max-w-7xl lg:px-8 lg:pt-32">
                 <div>
-                    <h1 className="text-4xl font-bold tracking-tight lg:text-6xl text-shark-700">Expert Advice - Navigating the best workforce plan.</h1>
+                    <h1 className="text-4xl font-bold tracking-tight lg:text-6xl text-shark-700">Navigating the best talent journey experience. </h1>
                 </div>
                 <div className="px-2 py-16 mx-auto max-w-7xl sm:py-20 lg:px-8">
                     <div className="max-w-2xl mx-auto lg:mx-0 lg:grid lg:max-w-none lg:grid-cols-2 lg:gap-x-16 lg:gap-y-6 xl:grid-cols-1 xl:grid-rows-1 xl:gap-x-8">
                     <div className="max-w-xl mt-6 lg:mt-0 xl:col-end-1 xl:row-start-1">
-                        <h2 className="font-semibold uppercase text-1xl text-malibu-300">Job &amp; Talent Analytics</h2>
                         <p className="text-lg leading-8 text-gray-500">
-                        We review job structures and talent demographics to make effective data-driven decisions, allowing us to target specific talent groups.
+                        Talentverse provides a strategic workforce planning approach to your hiring needs. 
                         </p>
-                        <h2 className="mt-4 font-semibold uppercase text-1xl text-malibu-300">Attraction Strategy &amp; Talent Pipeline</h2>
                         <p className="text-lg leading-8 text-gray-500">
-                        We build tailored attraction campaigns to engage talent groups. We review current recruitment processes and experience drivers to create friction-free talent pipelines.
+                        Through our <span className="italic font-bold">talent navigation, search and connect integrated stages</span>, we have you covered at every phase of the talent employment life-cycle. 
                         </p>
-                        <h2 className="mt-4 font-semibold uppercase text-1xl text-malibu-300">Connection Frameworks</h2>
                         <p className="text-lg leading-8 text-gray-500">
-                        Through our talent compliance and friction resolving processes, we review onboarding, engagement and offboarding frameworks for better talent retnetion.
+                        At every integrated stage we have dedicated specialist support service platform for you to benefit from through Bizcrew, Catchzone and Coffee & Careers. 
                         </p>
                         </div>
                         <Image
@@ -37,46 +34,7 @@ export default function Approach() {
                     </div>
                 </div>
             </section>
-            <div aria-label="slider" className="flex justify-center mx-auto max-w-7xl">
-                <div className="sticky top-0 hidden w-full h-16 rounded-3xl sm:flex bg-shark-700">
-                    <div className="flex justify-between bg-malibu-300 rounded-3xl">
-                        <div className="px-10 py-2 text-sm uppercase">
-                            Pulse
-                        </div>
-                        <div className="px-10 py-2 text-sm uppercase">
-                            Pre-Start
-                        </div>
-                        <div className="px-10 py-2 text-sm uppercase">
-                            Talent Plan
-                        </div>
-                    </div>
-                    <div className="flex justify-between rounded-xl">
-                        <div className="px-10 py-2 text-sm text-white uppercase">
-                            Attract
-                        </div>
-                        <div className="px-10 py-2 text-sm text-white uppercase">
-                            Source
-                        </div>
-                        <div className="px-10 py-2 text-sm text-white uppercase">
-                            Assess
-                        </div>
-                        <div className="px-10 py-2 text-sm text-white uppercase">
-                            Mobilise
-                        </div>
-                    </div>
-                    <div className="flex justify-between rounded-xl">
-                        <div className="px-10 py-2 text-sm text-white uppercase">
-                            Onboard
-                        </div>
-                        <div className="px-10 py-2 text-sm text-white uppercase">
-                            Engage
-                        </div>
-                        <div className="px-10 py-2 text-sm text-white uppercase">
-                            Offboard
-                        </div>
-                    </div>
-                </div>
-            </div>
+      
             <section className="py-4 sm:py-16">
                 <div className="px-4 sm:px-0 sm:mx-auto sm:max-w-6xl">
                     <div>
@@ -96,11 +54,11 @@ export default function Approach() {
                                     <h3 className="mt-0 mb-4 text-lg font-semibold leading-5 uppercase text-malibu-300">
                                     Talent Navigation
                                     </h3>
-                                    <p className="pb-6 mt-0 mb-6 text-base border-b-2 border-gray-100 text-shark-700">Talent experts providing advice and co-creating talent plan with you.</p>
+                                    <p className="pb-6 mt-0 mb-6 text-base border-b-2 border-gray-100 text-shark-700">We use our zero-friction planning diagnostic to achieve better candidate experience connection. </p>
                                     <div className="text-sm text-gray-500">
-                                    <p className="mt-6"><strong>Pulse</strong> - We use qualitive methods to understand your current pre and post hiring process and employment experience, and how to improve it.</p>
-                                    <p className="mt-6"><strong>Pre-Start</strong> - Before deployment boost off, we connect with key hiring people to implement agreed stages of your Talent Plan.</p>
-                                    <p className="mt-6"><strong>Talent Plan</strong> - We connect with you to design a Talent Plan solution that is unique to your job hiring assignment.</p>
+                                    <p className="mt-6"><strong>Pulse</strong> - We deploy data analytics to understand pre-hire and onboarding candidate experience better, and how to improve it.</p>
+                                    <p className="mt-6"><strong>Pre-Start</strong> - Before boost off we partner with key hiring people to agree on best methods of deployment. </p>
+                                    <p className="mt-6"><strong>Talent Plan</strong> - We co-pilot to design end-to end Talent Planning solutions that provide positive talent experiences.</p>
                                 </div>
                                 </div>
                             </div>
@@ -123,11 +81,11 @@ export default function Approach() {
                                     <h3 className="mt-0 mb-4 text-lg font-semibold leading-5 uppercase text-malibu-300">
                                     Talent Search
                                     </h3>
-                                    <p className="pb-6 mt-0 mb-6 text-base border-b-2 border-gray-100 text-shark-700">Outsourcing services to hire and mobilse talent.</p>
+                                    <p className="pb-6 mt-0 mb-6 text-base border-b-2 border-gray-100 text-shark-700">We use our 4-stage hiring methodology to find talent.</p>
                                     <div className="text-sm text-gray-500">
-                                    <p className="mt-6"><strong>Attract</strong> - We provide EVP methods and solutions specific to job demographics and TV talent connection criteria.</p>
-                                    <p className="mt-6"><strong>Source</strong> - We design and implement talent sourcing pipelines and screening processes for safer experience.</p>
-                                    <p className="mt-6"><strong>Assess and Mobilise</strong> - Tailored job hire compliance, fitness for work and other assessment criteria screening provided.</p>
+                                    <p className="mt-6"><strong>Attract</strong> - We use predictive job and talent demographic data for specific brand designs and marketing channels.</p>
+                                    <p className="mt-6"><strong>Source</strong> - We build and implement best fit talent hiring pipelines for an efficient and friction free candidate experience.</p>
+                                    <p className="mt-6"><strong>Assess and Mobilise</strong> - We provide tailored job vacancy assessments, including pre-employment HR and Safety compliance checks for risk-free guarantee.  </p>
                                 </div>
                                 </div>
                             </div>
@@ -191,13 +149,13 @@ export default function Approach() {
                             <div className="w-full sm:w-[48%]">
                                 <div className="pl-0 ml-0 sm:ml-20">
                                     <h3 className="mt-0 mb-4 text-lg font-semibold leading-5 uppercase text-malibu-300">
-                                    Talent Connection
+                                    Talent Connect
                                     </h3>
-                                    <p className="pb-6 mt-0 mb-6 text-base border-b-2 border-gray-100 text-shark-700">We provide tailored pre and post onboarding solutions for you.</p>
+                                    <p className="pb-6 mt-0 mb-6 text-base border-b-2 border-gray-100 text-shark-700">We provide 1:1 new hire and business coaching programs for better employment retention outcomes.  </p>
                                     <div className="text-sm text-gray-500">
-                                    <p className="mt-6"><strong>Onboard</strong> - Pre-start and post onboarding pulse reviews and planning to understand better key friction. Concierge and training solutions to support talent and hiring managers.</p>
-                                    <p className="mt-6"><strong>Engage</strong> - Early and mid-engagement talent pulse and coaching solutions to support better employment connections.</p>
-                                    <p className="mt-6"><strong>Offboard</strong> - Outplacement solutions to equipment and support talent for the next working chapters of employment.</p>
+                                    <p className="mt-6"><strong>Onboard</strong> - Career coaching and onboarding plans for new hires and business during the first 90 and 180 days.</p>
+                                    <p className="mt-6"><strong>Engage</strong> - Career Development planning 1:1 and for Teams. Employee experience pulse reviews and action planning. </p>
+                                    <p className="mt-6"><strong>Offboard</strong> - Change & Transition services for business movements. Outplacement solutions that include Career planning services. Employee offboarding pulse feedback reviews.</p>
                                 </div>
                                 </div>
                             </div>

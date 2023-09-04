@@ -1,10 +1,11 @@
 import Seo from "../components/Seo";
 import ConnectCard from "../components/ConnectCard";
+import LogoCloud from "../components/LogoCloud";
 
 const values = [
-  { label: 'Listen', value: 'We work on 80/20 listening approach.' },
-  { label: 'Clarity', value: 'We partner to provide clarity to your goals.' },
-  { label: 'Care', value: 'We are passionate about your outcomes.' },
+  { label: 'We Listen', value: 'We work on 80/20 listening approach.' },
+  { label: 'We Clarify', value: 'We partner to provide clarity to your goals.' },
+  { label: 'We Care', value: 'We are passionate about your outcomes.' },
 ]
 
 
@@ -26,7 +27,7 @@ export default function About(){
                         <figure className="relative isolate">
                           <blockquote className="mt-6 text-3xl font-semibold leading-8 text-white">
                             <p>
-                            “Proactive friction free way will become the new employment norm and frontier.”
+                            “Navigating friction-free connection is the frontier of talent hiring and retention.”
                             </p>
                           </blockquote>
                         </figure>                     
@@ -34,17 +35,17 @@ export default function About(){
                     </div>
                     <div>
                         <div className="text-base leading-7 text-gray-700 lg:max-w-lg">
-                            <p className="text-base font-semibold leading-7 uppercase text-malibu-300">Our origin story</p>
-                            <h1 className="mt-2 text-3xl font-bold tracking-tight text-shark-700 sm:text-4xl">Our Journey has bought us here</h1>
+                            <p className="text-4xl font-bold tracking-tight lg:text-6xl text-shark-700">Our story</p>
                             <div className="max-w-xl">
-                                <p className="mt-6">
-                                Our founders have decades of working across different industries and businesses leading human resource functions, hiring and mobilising talent locally, nationally and globally. They have experienced the hiring and retention evaluation impact on talent demographics, from external factors and changes on how the job connection fit best works.
-                                </p>
-                                <h2 className="mt-2 text-xl font-semibold tracking-tight text-shark-700 sm:text-2xl">Today’s employment demands</h2>
-                                <p className="mt-6">Talentverse was formed as a solution to meet the new demands employers and career seekers now seek! Talentverse is not a destination, rather an employment connection ideology and method in finding the new fiction free common place!</p>
-                                <h2 className="mt-2 text-xl font-semibold tracking-tight text-shark-700 sm:text-2xl">The talent connection future</h2>
-                                <p className="mt-2">As the talent hiring and employment connection continues to evolve, so moving on from a higher friction and higher cost turnover reactive recruitment approach will become a model of the past.</p>
-                                <p className="mt-2">Jason & Sam, Founders - Talentverse</p>
+                                <p className="mt-6">We are specialists at human resource strategy and leading teams in mobilising talent locally, nationally, and globally. We co-partner with range of industry and businesses to deliver on their talent hiring and retention needs. We love what we do, and that drives our passion for navigating friction-free business and talent connections.</p>
+                                <h2 className="mt-2 text-2xl font-semibold tracking-tight text-shark-700 sm:text-4xl">Approach</h2>
+                                <p className="mt-2">We bring a proactive, data-driven approach to the hiring and onboarding new talent. Through our <span className="font-semibold">pulse diagnostic</span> approach, we identify early any pre-hire and onboarding fiction risk. This feedback helps us co-create a tailored <span className="font-semibold">workforce plan</span> that focuses on your greatest opportunity for commercial success - your talent.</p>
+                                <p>To support your implementation, we provide hiring team <span className="font-semibold">change ready</span> coaching and support through our <span className="font-semibold">integrated service platforms.</span></p>
+                                <h2 className="mt-2 text-2xl font-semibold tracking-tight text-shark-700 sm:text-4xl">Mission</h2>
+                                <p className="text-base italic text-malibu-300">To navigate positive employment connection experiences.</p>
+                                <p className="mt-2">The talent demographics and hiring market is increasingly evolving and changing from traditional and reactive recruitment approaches towards a more agile, predictive and friction-free connection hiring approach.</p>
+                                <p className="mt-2">We look forward to connecting with you. </p>
+                                <p className="mt-2"><span className="font-semibold text-malibu-300">Jay & Sam</span> - Founders</p>
                             </div>
                         </div>
                         <h2 className="pt-10 mt-10 font-bold uppercase text-malibu-300">Our Values</h2>
@@ -56,17 +57,9 @@ export default function About(){
                             </div>
                         ))}
                         </dl>
-                        <div className="pt-10 mt-10">
-                            <h2 className="font-bold uppercase text-malibu-300">Our Partners</h2>
-                            <ul className="font-semibold text-shark-700">
-                                <li>AHRI</li>
-                                <li>ADHD Australia</li>
-                                <li>Visa Solutions</li>
-                            </ul>
-                        </div>
                     </div>
-                    
                 </div>
+                <LogoCloud />
             </div>
         </section>
         <section>
