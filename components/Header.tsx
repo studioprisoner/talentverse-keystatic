@@ -64,8 +64,8 @@ const Header = () => {
               <ul>
                 <span className=" text-malibu-300">Integrated Services</span>
                 <li  className="mt-4 ml-4 text-sm text-shark-300"><a href="/bizcrew" title="Bizcrew">Bizcrew</a></li>
-                <li  className="mt-4 ml-4 text-sm text-shark-300"><a href="/catzhzone" title="Bizcrew">Catchzone</a></li>
-                <li  className="mt-4 ml-4 text-sm text-shark-300"><a href="/coffee-careers" title="Bizcrew">Coffee &amp; Careers</a></li>
+                <li  className="mt-4 ml-4 text-sm text-shark-300"><a href="/catchzone" title="Bizcrew">Catchzone</a></li>
+                <li  className="mt-4 ml-4 text-sm text-shark-300"><a href="/coffee-career" title="Bizcrew">Coffee &amp; Careers</a></li>
               </ul>
             </li>
             <li className="mt-4 text-malibu-300"><a href="/about">About Us</a></li>
