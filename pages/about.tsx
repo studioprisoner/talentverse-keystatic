@@ -39,13 +39,13 @@ export default function About(){
                             <div className="max-w-xl">
                                 <p className="mt-6">We are specialists at human resource strategy and leading teams in mobilising talent locally, nationally, and globally. We co-partner with range of industry and businesses to deliver on their talent hiring and retention needs. We love what we do, and that drives our passion for navigating friction-free business and talent connections.</p>
                                 <h2 className="mt-2 text-2xl font-semibold tracking-tight text-shark-700 sm:text-4xl">Approach</h2>
-                                <p className="mt-2">We bring a proactive, data-driven approach to the hiring and onboarding new talent. Through our <span className="font-semibold">pulse diagnostic</span> approach, we identify early any pre-hire and onboarding fiction risk. This feedback helps us co-create a tailored <span className="font-semibold">workforce plan</span> that focuses on your greatest opportunity for commercial success - your talent.</p>
+                                <p className="mt-2">We bring a proactive data-driven approach to the hiring, and onboarding new talent. Through our <span className="text-malibu-300">pulse diagnostic</span>, we identify early any pre-hire and onboarding fiction risk. This feedback helps us co-create a tailored <span className="text-malibu-300">workforce plan</span> that focuses on your greatest opportunity for commercial success - your talent.</p>
                                 <p>To support your implementation, we provide hiring team <span className="font-semibold">change ready</span> coaching and support through our <span className="font-semibold">integrated service platforms.</span></p>
                                 <h2 className="mt-2 text-2xl font-semibold tracking-tight text-shark-700 sm:text-4xl">Mission</h2>
                                 <p className="text-base italic text-malibu-300">To navigate positive employment connection experiences.</p>
-                                <p className="mt-2">The talent demographics and hiring market is increasingly evolving and changing from traditional and reactive recruitment approaches towards a more agile, predictive and friction-free connection hiring approach.</p>
+                                <p className="mt-2">The talent demographic and hiring market is increasingly evolving and moving away from traditional and reactive recruitment approaches towards a more agile, predictive and friction-free connected approach.</p>
                                 <p className="mt-2">We look forward to connecting with you. </p>
-                                <p className="mt-2"><span className="font-semibold text-malibu-300">Jay & Sam</span> - Founders</p>
+                                <p className="mt-2"><span className="font-semibold text-malibu-300">Jay & Sam</span> - Founding Crew</p>
                             </div>
                         </div>
                         <h2 className="pt-10 mt-10 font-bold uppercase text-malibu-300">Our Values</h2>

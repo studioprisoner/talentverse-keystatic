@@ -246,9 +246,7 @@ export default function Home({
                       <div>
                         <h2 className="text-base font-semibold leading-7 uppercase text-malibu-300">Understanding your journey</h2>
                         <p className="mt-2 text-3xl font-bold tracking-tight text-shark-700 sm:text-4xl">Our Approach</p>
-                        <p className="mt-6 text-lg leading-8 text-shark-700">
-                        Before every take-off we connect with you to understand your specific needs. Through our 3-stage approach, we co-create a tailored plan to achieve your outcomes.
-                        </p>
+                        <p className="mt-6 text-lg leading-8 text-shark-700">Before every take-off we connect with you to understand your specific needs. Through our 3-stage diagnostic approach, we co-create a tailored talent plan to achieve your outcomes.</p>
                         <p className="mt-6">
                           <a href="#" className="text-base font-semibold leading-6 text-malibu-300 hover:text-shark-700">
                             Find out more about our approach <span aria-hidden="true">→</span>
@@ -264,26 +262,26 @@ export default function Home({
             <p className="text-base font-semibold leading-7 text-white uppercase">Unlocking connection outcomes</p>
             <h2 className="text-3xl font-bold tracking-tight text-shark-700 sm:text-4xl">Our Integrated Services</h2>      
             <p className="max-w-3xl mt-6 text-lg leading-8 text-shark-700">
-            Our integrated service platforms support you at each journey stage. We remove friction barriers to more positive hiring and onboarding experience. 
+            Our integrated service platforms support you at each employment stage. We remove friction barriers to more positive hiring and onboarding experience.
             </p>
       </div>
       <div className="grid max-w-2xl grid-cols-1 gap-8 mx-auto mt-8 sm:gap-32 auto-rows-fr sm:mt-10 lg:mx-0 lg:max-w-none lg:grid-cols-3">
             <CardLink
               link="/bizcrew"
               title="Bizcrew"
-              subtitle="Talent Experts"
+              subtitle="Talent Navigate"
               icon="images/rocket.svg"
             />
             <CardLink
-              link="#"
+              link="/catchzone"
               title="Catchzone"
-              subtitle="Talent Search"
+              subtitle="Talent Employ"
               icon="images/target.svg"
             />
             <CardLink
-              link="#"
+              link="/coffee-career"
               title="Coffee & Careers"
-              subtitle="Talent Connection"
+              subtitle="Talent Connect"
               icon="images/coffee.svg"
             />
       </div>

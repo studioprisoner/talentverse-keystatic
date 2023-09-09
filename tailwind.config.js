@@ -8,7 +8,6 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-          'shark-700': '#484C66',
           'malibu': {
             '50': '#ecfcff',
             '100': '#cef6ff',
