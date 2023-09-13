@@ -1,4 +1,5 @@
 import Seo from "../components/Seo";
+import { CrewConnectForm } from '../components/crewConnect'
 
 
 export default function JoinOurCrew() {
@@ -43,7 +44,7 @@ export default function JoinOurCrew() {
                             </div>
                         </div>
                     </div>
-                    
+                    <CrewConnectForm />
                 </div>
             </div>
         </div>
