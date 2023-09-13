@@ -54,11 +54,11 @@ export default function Approach() {
                                     <h3 className="mt-0 mb-4 text-2xl font-semibold leading-5 uppercase text-malibu-300">
                                     Navigate
                                     </h3>
-                                    <p className="pb-6 mt-0 mb-6 text-base border-b-2 border-gray-100 text-shark-700">We use our <span className="font-bold">zero-friction</span> planning diagnostic to achieve better candidate experience connection.</p>
+                                    <p className="pb-6 mt-0 mb-6 text-base border-b-2 border-gray-100 text-shark-700">We use our <span className="font-bold">zero-friction</span> diagnostic approach to achieving better candidate experiences.</p>
                                     <div className="text-sm text-gray-500">
                                     <p className="mt-6"><strong>Pulse</strong> - We deploy data analytics to understand pre-hire and onboarding candidate experience better, and how to improve it.</p>
-                                    <p className="mt-6"><strong>Pre-Start</strong> - Before boost off we partner with key hiring people to agree on best methods of deployment.</p>
-                                    <p className="mt-6"><strong>Talent Plan</strong> - We co-pilot to design end-to end Talent Planning solutions that provide positive talent experiences.</p>
+                                    <p className="mt-6"><strong>Pre-Start</strong> - Before boost off we partner with you to agree on best methods of employment.</p>
+                                    <p className="mt-6"><strong>Talent Plan</strong> - We co-pilot to design end-to end Workforce planning solutions that provide positive talent experiences.</p>
                                 </div>
                                 </div>
                             </div>
@@ -81,11 +81,11 @@ export default function Approach() {
                                     <h3 className="mt-0 mb-4 text-2xl font-semibold leading-5 uppercase text-malibu-300">
                                     Employ
                                     </h3>
-                                    <p className="pb-6 mt-0 mb-6 text-base border-b-2 border-gray-100 text-shark-700">We use our 4-stage hiring methodology to find talent.</p>
+                                    <p className="pb-6 mt-0 mb-6 text-base border-b-2 border-gray-100 text-shark-700">We use our <span className="font-bold">3-stage</span> hiring methodology process to find talent.</p>
                                     <div className="text-sm text-gray-500">
-                                    <p className="mt-6"><strong>Attract</strong> - We use predictive job and talent demographic data for specific brand designs and marketing channels.</p>
+                                    <p className="mt-6"><strong>Attract</strong> - We use predictive job and talent demographic feedback for effective marketing campaigns.</p>
                                     <p className="mt-6"><strong>Source</strong> - We build and implement best fit talent hiring pipelines for an efficient and friction free candidate experience.</p>
-                                    <p className="mt-6"><strong>Assess &amp; Mobilise</strong> - We provide tailored job vacancy assessments, including pre-employment HR and Safety compliance checks for risk-free guarantee.</p>
+                                    <p className="mt-6"><strong>Assess &amp; Mobilise</strong> - We provide tailored candidate pre-employment assessments, including Fit for Fork and Human Resource process guarantee.</p>
                                 </div>
                                 </div>
                             </div>
@@ -153,7 +153,7 @@ export default function Approach() {
                                     <h3 className="mt-0 mb-4 text-2xl font-semibold leading-5 uppercase text-malibu-300">
                                     Connect
                                     </h3>
-                                    <p className="pb-6 mt-0 mb-6 text-base border-b-2 border-gray-100 text-shark-700">We provide 1:1 new hire and business coaching programs for better employment retention outcomes.</p>
+                                    <p className="pb-6 mt-0 mb-6 text-base border-b-2 border-gray-100 text-shark-700">We provide 1:1 new hire coaching solutions for better connection and retention outcomes.</p>
                                     <div className="text-sm text-gray-500">
                                     <p className="mt-6"><strong>Onboard</strong> - Career coaching and onboarding plans for new hires and business during the first 90 and 180 days.</p>
                                     <p className="mt-6"><strong>Engage</strong> - Career Development planning 1:1 and for Teams. Employee experience pulse reviews and action planning.</p>

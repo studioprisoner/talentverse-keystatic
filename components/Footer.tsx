@@ -6,8 +6,8 @@ const footerlinks = [
   title: 'Talent Services',
   links: [
     { title: 'Bizcrew', href: '/bizcrew' },
-    { title: 'Catchzone', href: '#' },
-    { title: 'Coffee & Career', href: '#' },
+    { title: 'Catchzone', href: '/catchzone' },
+    { title: 'Coffee & Careers', href: '/coffee-career' },
     ],
   },
   {
@@ -15,6 +15,7 @@ const footerlinks = [
     links: [
       { title: 'Our Approach', href: '/approach' },
       { title: 'About Us', href: '/about' },
+      { title: 'Join Our Crew', href: '/joinourcrew' },
     ],
   },
   {

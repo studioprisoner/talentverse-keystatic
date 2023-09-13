@@ -12,10 +12,10 @@ export default function Coffeecareer() {
             <section className="px-6 pt-12 pb-12 mx-auto max-w-7xl lg:px-8 lg:pt-32">
                 <div className="text-base leading-7 text-gray-700 max-w-7xl lg:px-8">
                     <p className="text-base font-semibold leading-7 uppercase text-malibu-300">Coffee &amp; Careers</p>
-                    <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Career Coaching &amp; Connection</h1>
-                    <p className="mt-2 text-xl leading-8">Employing key talent is an important investment, and keeping them is just as bigger one for commercial success.</p>
-                    <p className="mt-2 text-xl leading-8">Having an <span className="font-bold">on-boarding plan</span> and work environment ready for new hires, especially during the first <span className="font-bold">90-days</span> has many business utilisation and retention upsides. Through our <span className="text-malibu-500">Coffee &amp; Careers</span> platform, we provide new-hires and business with onboarding and connection programs to protect your people investment.</p>
-                    <p className="mt-2 text-xl leading-8">Our Talentverse Experts are internally certified and HR experienced to coach and mentor employees and business for longer-term employment connection investment.</p>
+                    <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Talent Connection &amp; Coaching </h1>
+                    <p className="mt-2 text-xl leading-8">Employing key talent is an important investment, and retaining them more important for long-term business success.</p>
+                    <p className="mt-2 text-xl leading-8">Therefore, having an <span className="font-bold">on-boarding plan</span> and job environment ready for new hires, especially during the first <span className="font-bold">90-180</span> days is really important. Through our <span className="text-malibu-500">Coffee &amp; Careers</span> platform and programs, we support new-hires and business to connect for happier retention.</p>
+                    <p className="mt-2 text-xl leading-8">Our Talentverse experts are certified and experienced to partner with employees and business, through the whole working journey.</p>
                 </div>
                 <div className="mt-10 max-w-7xl">
                     <div className="grid items-start max-w-2xl grid-cols-1 mx-auto gap-x-8 gap-y-16 sm:gap-y-24 lg:mx-0 lg:max-w-none lg:grid-cols-2">
@@ -35,18 +35,20 @@ export default function Coffeecareer() {
                                 <div className="max-w-xl">
                                     <div className="py-4 mt-2 border-b-2 border-gray-100">
                                         <h3 className="pb-2 text-2xl font-semibold text-malibu-300">Onboard</h3>
-                                        <p><span className="font-semibold text-malibu-300">Concierge Support </span> - We offer concierge support for every new hire during early stages of employment.</p>
-                                        <p><span className="font-semibold text-malibu-300">Career Planning &amp; Coaching</span> - We provide more comprehensive career planning and coaching for new hires and business during the first 90 and 180-day probation periods.  We carry out New Employee early connection experience pulse reviews, to understand better key friction areas.</p>
+                                        <p><span className="font-semibold text-malibu-300">Concierge Support</span> - Offer complimentary concierge support for every new hire, during early stages.</p>
+                                        <p><span className="font-semibold text-malibu-300">Planning &amp; Coaching</span> - Provide additional comprehensive Career planning and coaching programs during first 90 - and 180-day probation periods.</p>
+                                        <p><span className="font-semibold text-malibu-300">Pulse Experience Reviews</span> - Provide early employee pulse surveys to understand better key friction areas to engagement. </p>
                                     </div>
                                     <div className="py-4 mt-2 border-b-2 border-gray-100">
                                         <h3 className="text-2xl font-semibold text-malibu-300">Engage</h3>
-                                        <p><span className="font-semibold text-malibu-300">Career Development</span> - Employee 1 to 1 and team engagement experience pulse reviews and action feedback, career planning and development programs post probation.</p>
-                                        <p className="mt-1 text-sm italic text-gray-400">Business restructure, right size, mergers & acquisition connection support. Performance improvement coaching and advice.</p>
+                                        <p><span className="font-semibold text-malibu-300">Career Development</span> - Provide 1:1 and team engagement pulse reviews, and feedback actions. Coffee & Career business worksite set up and programs.</p>
+                                        <p><span className="font-semibold text-malibu-300">Change &amp; Transitional Support </span> - Provide business restructure, right sizing and mergers & acquisition connection support.  </p>
+                                        
                                     </div>
                                     <div className="py-4 mt-2">
                                         <h3 className="pb-2 text-2xl font-semibold text-malibu-300">Offboard</h3>
-                                        <p><span className="font-semibold text-malibu-300">Outplacement Solutions</span> - 1 to 1 Employee career planning, brand profiling, coaching and resume services. </p>
-                                        <p><span className="font-semibold text-malibu-300">Offboarding Pulse Surveys</span> - 1 to 1 confidential Employee offboarding pulse surveys and reports to enable better hiring and retention outcomes.</p>
+                                        <p><span className="font-semibold text-malibu-300">Outplacement Solutions</span> - Employee career planning, profiling, coaching and resume services.</p>
+                                        <p><span className="font-semibold text-malibu-300">Offboarding Pulse Surveys</span> - Employee 1:1 offboarding pulse surveys to enable better hiring and retention outcomes.</p>
                                     </div>
                                 </div>
                             </div>

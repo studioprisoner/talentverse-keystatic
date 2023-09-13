@@ -8,7 +8,9 @@ export const EmployerContactForm = () => {
     const [company, setCompany] = useState("");
     const [email, setEmail] = useState("");
     const [phone, setPhone] = useState("");
-    const [website, setWebsite] = useState("");
+    const [industry, setIndustry] = useState("");
+    const [vacancydetails, setVacacydetails] = useState("");
+    const [positionStatus, setPositionStatus] = useState("");
     const [totalEmployees, setTotalEmployees] = useState("");
 
     const onSubmit = async (e: FormEvent) => {
@@ -23,7 +25,9 @@ export const EmployerContactForm = () => {
               company,
               phone,
               email,
-              website,
+              industry,
+              vacancydetails,
+              positionStatus,
               totalEmployees,
             }),
             headers: {
@@ -65,40 +69,7 @@ export const EmployerContactForm = () => {
                         />
                     </div>
                     </div>
-
-                    <div className="sm:col-span-3">
-                    <label htmlFor="last-name" className="block text-base font-semibold text-shark-700">
-                        Position
-                    </label>
-                    <div className="mt-2">
-                        <input
-                        type="text"
-                        id="position"
-                        value={position}
-                        onChange={(e) => setPosistion(e.target.value)}
-                        autoComplete="family-name"
-                        className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-shark-700 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-shark-900 sm:text-sm sm:leading-6"
-                        />
-                    </div>
-                    </div>
-
-                    <div className="sm:col-span-3">
-                    <label htmlFor="last-name" className="block text-base font-semibold text-shark-700">
-                        Company
-                    </label>
-                    <div className="mt-2">
-                        <input
-                        type="text"
-                        id="company"
-                        value={company}
-                        onChange={(e) => setCompany(e.target.value)}
-                        autoComplete="family-name"
-                        className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-shark-700 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-shark-900 sm:text-sm sm:leading-6"
-                        />
-                    </div>
-                    </div>
-
-                    <div className="sm:col-span-4">
+                    <div className="sm:col-span-2">
                     <label htmlFor="phone-number" className="block text-base font-semibold text-shark-700">
                         Phone Number
                     </label>
@@ -128,7 +99,7 @@ export const EmployerContactForm = () => {
 
                     <div className="sm:col-span-4">
                     <label htmlFor="email" className="block text-base font-semibold text-shark-700">
-                        Email
+                       Work Email
                     </label>
                     <div className="mt-2">
                         <input
@@ -140,17 +111,19 @@ export const EmployerContactForm = () => {
                         />
                     </div>
                     </div>
+                    
 
-                    <div className="sm:col-span-4">
-                    <label htmlFor="email" className="block text-base font-semibold text-shark-700">
-                        Website
+                    <div className="sm:col-span-3">
+                    <label htmlFor="last-name" className="block text-base font-semibold text-shark-700">
+                        Company Name
                     </label>
                     <div className="mt-2">
                         <input
-                        type="website"
-                        id="website"
-                        value={website}
-                        onChange={(e) => setWebsite(e.target.value)}
+                        type="text"
+                        id="company"
+                        value={company}
+                        onChange={(e) => setCompany(e.target.value)}
+                        autoComplete="family-name"
                         className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-shark-700 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-shark-900 sm:text-sm sm:leading-6"
                         />
                     </div>
@@ -207,7 +180,7 @@ export const EmployerContactForm = () => {
                         </div>
                         <div className="ml-3 text-sm leading-6">
                             <label htmlFor="comments" className="font-medium text-gray-900">
-                            11-50
+                            51-100
                             </label>
                         </div>
                         </div>
@@ -245,6 +218,110 @@ export const EmployerContactForm = () => {
                             </label>
                         </div>
                         </div>
+                    </div>
+
+                    <div className="sm:col-span-4">
+                    <label htmlFor="postion" className="block text-base font-semibold text-shark-700">
+                        Your Position
+                    </label>
+                    <div className="mt-2">
+                        <input
+                        type="position"
+                        id="position"
+                        value={position}
+                        onChange={(e) => setPosistion(e.target.value)}
+                        className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-shark-700 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-shark-900 sm:text-sm sm:leading-6"
+                        />
+                    </div>
+                    </div>
+
+                    <div className="sm:col-span-4">
+                        <label className="block text-base font-semibold text-shark-700">Job Status</label>
+                        <fieldset className="mt-4">
+                            <legend className="sr-only">Are you looking to fill temporary or permanent position?</legend>
+                            <div className="space-y-4" onChange={(e) => setPositionStatus(e.target.value)}>
+                                <div key="temporary" className="flex items-center">
+                                    <input
+                                        id="temporary"
+                                        type= "radio"
+                                        value="Temporary"
+                                        name='postionStatus'
+                                        className="w-4 h-4 text-shark-700 border-shark-700 focus:ring-shark-900"
+                                    />
+                                    <label htmlFor="yes" className="block ml-3 text-sm font-medium leading-6 text-gray-900">
+                                        Temporary
+                                    </label>
+                                </div>
+                                <div key="permanent" className="flex items-center">
+                                    <input
+                                        id="permanent"
+                                        type= "radio"
+                                        value="Permanent"
+                                        name='postionStatus'
+                                        className="w-4 h-4 text-shark-700 border-shark-700 focus:ring-shark-900"
+                                    />
+                                    <label htmlFor="yes" className="block ml-3 text-sm font-medium leading-6 text-gray-900">
+                                        Permanent
+                                    </label>
+                                </div>
+                                <div key="rpo" className="flex items-center">
+                                    <input
+                                        id="rpo"
+                                        type= "radio"
+                                        value="rpo"
+                                        name='postionStatus'
+                                        className="w-4 h-4 text-shark-700 border-shark-700 focus:ring-shark-900"
+                                    />
+                                    <label htmlFor="yes" className="block ml-3 text-sm font-medium leading-6 text-gray-900">
+                                        RPO
+                                    </label>
+                                </div>
+                                <div key="expert" className="flex items-center">
+                                    <input
+                                        id="expert"
+                                        type= "radio"
+                                        value="expert"
+                                        name='postionStatus'
+                                        className="w-4 h-4 text-shark-700 border-shark-700 focus:ring-shark-900"
+                                    />
+                                    <label htmlFor="yes" className="block ml-3 text-sm font-medium leading-6 text-gray-900">
+                                        Expert
+                                    </label>
+                                </div>
+                            </div>
+                            
+                        </fieldset>
+                    </div>
+
+
+                    <div className="sm:col-span-4">
+                    <label htmlFor="email" className="block text-base font-semibold text-shark-700">
+                        Your Industry
+                    </label>
+                    <div className="mt-2">
+                        <input
+                        type="industry"
+                        id="industry"
+                        value={industry}
+                        onChange={(e) => setIndustry(e.target.value)}
+                        className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-shark-700 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-shark-900 sm:text-sm sm:leading-6"
+                        />
+                    </div>
+                    </div>
+
+                    <div className="sm:col-span-4">
+                    <label htmlFor="email" className="block text-base font-semibold text-shark-700">
+                        Job Vacancy Details
+                    </label>
+                    <div className="mt-2">
+                        <textarea
+                            id="vaccanydetails"
+                            value={vacancydetails}
+                            rows={3}
+                            onChange={(e) => setVacacydetails(e.target.value)}
+                            className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-shark-700 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-shark-900 sm:text-sm sm:leading-6"
+                        />
+                    </div>
                     </div>
                     
                 </div>

@@ -1,14 +1,14 @@
 import React, { FormEvent, useState } from "react";
 
-export const SeekerContactForm = () => {
+export const CrewConnectForm = () => {
 
     const [isSubmitted, setSubmitted] = useState(false);
     const [firstName, setFirstName] = useState("");
     const [lastName, setLastName] = useState("");
     const [email, setEmail] = useState("");
     const [phone, setPhone] = useState("");
-    const [jobStatus, setjobSatus] = useState("");
-    const [radioGroup, setRadioGroup] = useState("Yes");
+    const [partner, setpartner] = useState("");
+    const [cafeChat, setCafeChat] = useState("Yes");
 
     const onSubmit = async (e: FormEvent) => {
         e.preventDefault()
@@ -21,8 +21,8 @@ export const SeekerContactForm = () => {
               lastName,
               phone,
               email,
-              jobStatus,
-              radioGroup
+              partner,
+              cafeChat
             }),
             headers: {
               'content-type': 'application/json',
@@ -124,30 +124,54 @@ export const SeekerContactForm = () => {
                     <div className="sm:col-span-4">
                         <label className="block text-base font-semibold text-shark-700">Job Status</label>
                         <fieldset className="mt-4">
-                            <legend className="sr-only">Job Status</legend>
-                            <div className="space-y-4" onChange={(e) => setjobSatus(e.target.value)}>
-                                <div key="looking" className="flex items-center">
+                            <legend className="sr-only">Become a partner</legend>
+                            <div className="space-y-4" onChange={(e) => setpartner(e.target.value)}>
+                                <div key="inustryAssociation" className="flex items-center">
                                     <input
-                                        id="looking"
+                                        id="inustryAssociation"
                                         type= "radio"
-                                        value="Actively Looking"
-                                        name='jobStatus'
+                                        value="Industry Association"
+                                        name='partner'
                                         className="w-4 h-4 text-shark-700 border-shark-700 focus:ring-shark-900"
                                     />
                                     <label htmlFor="yes" className="block ml-3 text-sm font-medium leading-6 text-gray-900">
-                                        Actively Looking
+                                        Industry Assocation
                                     </label>
                                 </div>
-                                <div key="open" className="flex items-center">
+                                <div key="learningInstitution" className="flex items-center">
                                     <input
-                                        id="open"
+                                        id="learningInstitution"
                                         type= "radio"
-                                        value="Passivly Open to new opportunies"
-                                        name='jobStatus'
+                                        value="Learning Partner"
+                                        name='partner'
                                         className="w-4 h-4 text-shark-700 border-shark-700 focus:ring-shark-900"
                                     />
                                     <label htmlFor="yes" className="block ml-3 text-sm font-medium leading-6 text-gray-900">
-                                        Passively open to new opportunities
+                                        Learning Partner
+                                    </label>
+                                </div>
+                                <div key="cafe" className="flex items-center">
+                                    <input
+                                        id="cafe"
+                                        type= "radio"
+                                        value="Cafe"
+                                        name='partner'
+                                        className="w-4 h-4 text-shark-700 border-shark-700 focus:ring-shark-900"
+                                    />
+                                    <label htmlFor="yes" className="block ml-3 text-sm font-medium leading-6 text-gray-900">
+                                        Cafe
+                                    </label>
+                                </div>
+                                <div key="expert" className="flex items-center">
+                                    <input
+                                        id="expert"
+                                        type= "radio"
+                                        value="Expert"
+                                        name='partner'
+                                        className="w-4 h-4 text-shark-700 border-shark-700 focus:ring-shark-900"
+                                    />
+                                    <label htmlFor="yes" className="block ml-3 text-sm font-medium leading-6 text-gray-900">
+                                        Expert
                                     </label>
                                 </div>
                             </div>
@@ -157,30 +181,30 @@ export const SeekerContactForm = () => {
                     <div className="sm:col-span-4">
                         <label className="block text-base font-semibold text-shark-700">Job Equriy</label>
                         <fieldset className="mt-4">
-                            <legend className="sr-only">Job Status</legend>
-                            <div className="space-y-4" onChange={(e) => setRadioGroup(e.target.value)}>
-                                <div key="applying" className="flex items-center">
+                            <legend className="sr-only">Book a Cafe Chat</legend>
+                            <div className="space-y-4" onChange={(e) => setCafeChat(e.target.value)}>
+                                <div key="yes" className="flex items-center">
                                     <input
-                                        id="applying"
+                                        id="yes"
                                         type= "radio"
-                                        value="applying"
-                                        name='jobEnquiry'
+                                        value="Yes"
+                                        name='cafeChat'
                                         className="w-4 h-4 text-shark-700 border-shark-700 focus:ring-shark-900"
                                     />
                                     <label htmlFor="yes" className="block ml-3 text-sm font-medium leading-6 text-gray-900">
-                                        Applying for job
+                                        Yes
                                     </label>
                                 </div>
-                                <div key="career-service" className="flex items-center">
+                                <div key="no" className="flex items-center">
                                     <input
-                                        id="career-service"
+                                        id="no"
                                         type= "radio"
-                                        value="Career Service advice only"
-                                        name='jobEnquiry'
+                                        value="No"
+                                        name='cafeChat'
                                         className="w-4 h-4 text-shark-700 border-shark-700 focus:ring-shark-900"
                                     />
-                                    <label htmlFor="yes" className="block ml-3 text-sm font-medium leading-6 text-gray-900">
-                                        Career Service advice only
+                                    <label htmlFor="no" className="block ml-3 text-sm font-medium leading-6 text-gray-900">
+                                        No
                                     </label>
                                 </div>
                             </div>

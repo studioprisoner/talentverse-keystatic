@@ -33,23 +33,23 @@ export default function Bizcrew() {
                         <div className="grid grid-cols-1 pb-8 place-content-center">
                             <div className="text-lg leading-7 text-gray-700 lg:max-w-lg">
                                 <div className="max-w-xl">
-                                    <h2 className="pb-4 text-2xl font-bold sm:text-4xl">Expert advice - designing best workforce plan</h2>
-                                    <p>We use our Talentverse <span className="text-malibu-300">3-stage</span> diagnostic to identify and minimize hiring friction for a better candidate experience.</p>
+                                    <h2 className="pb-4 text-2xl font-bold sm:text-4xl">Specialist advice - designing best workforce plan</h2>
+                                    <p>We use our <span className="text-malibu-300">3-step</span> diagnostic approach to identify and minimize hiring friction, for a better candidate experience.</p>
                                     <div className="py-4 mt-6 border-b-2 border-gray-100">
                                         <h3 className="pb-2 text-2xl font-semibold text-malibu-300">Navigate</h3>
-                                        <p>We carry out pulse diagnostic reviews on each new vacancy, to understand trend data towards building the best action plan.</p>
+                                        <p>We carry out pulse reviews on each new vacancy, to understand trend data towards building the best talent plan.</p>
                                     </div>
                                     <div className="py-4 mt-2 border-b-2 border-gray-100">
                                         <h3 className="pb-2 text-2xl font-semibold text-malibu-300">Employ</h3>
-                                        <p>Through our diagnostic, we provide hiring options and the best deployment process for your vacancy assignment.</p>
+                                        <p>Through our diagnostic feedback, we provide alternative hiring options and best process deployment for the vacancy assignment.</p>
                                     </div>
                                     <div className="py-4 mt-2">
                                         <h3 className="pb-2 text-2xl font-semibold text-malibu-300">Connect</h3>
                                         <ul className="pl-4 list-disc list-outside">
                                             <li className="pb-2">We provide onboarding plans and coaching for new hires and business during the first 90 and 180 days.</li>
-                                            <li className="pb-2">Provide 1:1 Career Coaching and Development solutions. </li>
-                                            <li className="pb-2">Offer business Change & Transitional employee solution advice. </li>
-                                            <li className="pb-2">Provide support on employee offboarding solutions.</li>
+                                            <li className="pb-2">Provide 1:1 Employee career coaching and connection solutions.</li>
+                                            <li className="pb-2">Business Employee change & transition advice.</li>
+                                            <li className="pb-2">Employee offboarding solutions and support.</li>
                                         </ul>
                                     </div>
                                 </div>
