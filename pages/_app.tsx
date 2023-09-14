@@ -17,7 +17,7 @@ function MyApp({ Component, pageProps }: AppProps) {
 
   useEffect(() => {
     Fathom.load(process.env.FATHOM_ID, {
-      includedDomains: ['talentverse.com.au', 'talentverse-keystatic.vercel.app']
+      includedDomains: ['talentverse.com.au', 'www.talentverse.com.au']
     });
   
     function onRouteChangeComplete() {
