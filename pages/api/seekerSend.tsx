@@ -9,8 +9,8 @@ export default async function handler( req: NextApiRequest, res: NextApiResponse
   const { firstName, lastName, phone, email, jobStatus, radioGroup } = req.body
 
   const messageData = {
-    from: 'Seeker Connect form <enquiry@talentverse.com.au>',
-    to: 'enquiry@talentverse.com.au',
+    from: 'Seeker Connect form <info@talentverse.com.au>',
+    to: 'info@talentverse.com.au',
     subject: 'New Seeker Connect Form!',
     text: `Hello,
 

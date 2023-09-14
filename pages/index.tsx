@@ -189,7 +189,7 @@ export default function Home({
                   <div className="flex-none mr-auto space-y-8 w-44 sm:mr-0 sm:pt-52 lg:pt-36">
                     <div className="relative">
                       <Image
-                        src={warehouseworker}
+                        src={coffeeshop}
                         alt="Man standing in a warehouse smiling wearing a high vis vest"
                         priority
                         className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
@@ -209,7 +209,7 @@ export default function Home({
                   <div className="flex-none pt-32 space-y-8 w-44 sm:pt-0">
                     <div className="relative">
                       <Image
-                        src={coffeeshop}
+                        src={warehouseworker}
                         alt="Two people meeting in a coffee shop for a professional meeting smiling and having a conversation"
                         priority
                         className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"

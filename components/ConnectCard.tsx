@@ -1,6 +1,6 @@
 const tabs = [
-    { name: 'Employer', href: "#" },
-    { name: 'Job Seeker', href: "#" },
+    { name: 'Employer', href: "/connect-employer" },
+    { name: 'Job Seeker', href: "/connect-seeker" },
   ]
 
 const  ConenctCard = () => {
@@ -30,7 +30,7 @@ const  ConenctCard = () => {
                         <dd>+61 418 945 072</dd>
                     </div>
                     <div>
-                        <dt>enquiry@talentverse.com.au</dt>
+                        <dt>info@talentverse.com.au</dt>
                     </div>
                 </dl>
             </div>
