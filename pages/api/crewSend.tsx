@@ -6,7 +6,7 @@ const resend = new Resend(process.env.RESEND_API_KEY);
 export default async function handler( req: NextApiRequest, res: NextApiResponse) {
   console.log('Data', req.body)
 
-  const { firstName, lastName, phone, email, partner, cafeChat } = req.body
+  const { firstName, lastName, phone, email, partner, meetingPreference } = req.body
 
   const messageData = {
     from: 'Seeker Connect form <info@talentverse.com.au>',
@@ -17,7 +17,7 @@ export default async function handler( req: NextApiRequest, res: NextApiResponse
     You have a new form entry from: ${firstName} ${lastName} ${email}.
 
     They're interested in becoming a parther in: ${partner}
-    Are they interested in a cafe chat: ${cafeChat}
+    Our Meeting prefernce is: ${meetingPreference}
 
     You can reach them on: ${phone}   
     `,
