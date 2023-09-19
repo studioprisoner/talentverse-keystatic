@@ -2,7 +2,7 @@ import Seo from "../components/Seo";
 import Image from "next/image";
 import ConnectCard from "../components/ConnectCard";
 
-import trainingroom from 'public/images/training-room.webp'
+import trainingroom from 'public/images/woman-manager-in-office.webp'
 
 export default function Bizcrew() {
 
@@ -11,12 +11,12 @@ export default function Bizcrew() {
             <Seo />
             <section className="px-6 pt-12 pb-12 mx-auto max-w-7xl lg:px-8 lg:pt-32">
                 <div className="text-base leading-7 text-gray-700 max-w-7xl lg:px-8">
-                    <p className="text-base font-semibold leading-7 uppercase text-malibu-300">Bizcrew</p>
+                    <p className="text-2xl font-semibold leading-7 uppercase text-malibu-300">Bizcrew</p>
                     <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Experts Co-Piloting with you</h1>
                     <p className="mt-6 text-xl leading-8">
-                    We are workforce strategy specialists who like to solve talent attraction and retention challenges.  Our mission is to co-pilot with business and talent to build greater employment connections.
+                    We are workforce strategy specialists who solve employment attraction and retention challenges. Our mission is to co-pilot with you to build better employment connection outcomes.
                     </p>
-                    <p className="mt-6 text-xl leading-8">Through our Talentverse diagnostic approach, we build friction-free hiring and onboarding experiences.</p>
+                    <p className="mt-6 text-xl leading-8">Through our Talentverse diagnostic approach we design and make friction free hiring possible.</p>
                 </div>
                 <div className="mt-10 max-w-7xl">
                     <div className="grid items-start max-w-2xl grid-cols-1 mx-auto gap-x-8 gap-y-16 sm:gap-y-24 lg:mx-0 lg:max-w-none lg:grid-cols-2">
@@ -34,22 +34,22 @@ export default function Bizcrew() {
                             <div className="text-lg leading-7 text-gray-700 lg:max-w-lg">
                                 <div className="max-w-xl">
                                     <h2 className="pb-4 text-2xl font-bold sm:text-4xl">Specialist advice - designing best workforce plan</h2>
-                                    <p>We use our <span className="text-malibu-300">3-step</span> diagnostic approach to identify and minimize hiring friction, for a better candidate experience.</p>
+                                    <p>We deploy our <span className="text-malibu-300">3-step</span> diagnostic approach across each one of our integrated service stages.</p>
                                     <div className="py-4 mt-6 border-b-2 border-gray-100">
                                         <h3 className="pb-2 text-2xl font-semibold text-malibu-300">Navigate</h3>
-                                        <p>We carry out pulse reviews on each new vacancy, to understand trend data towards building the best talent plan.</p>
+                                        <p>We carry out pulse reviews on each new vacancy hire, to understand trend data towards building the best talent hiring plan.</p>
                                     </div>
                                     <div className="py-4 mt-2 border-b-2 border-gray-100">
                                         <h3 className="pb-2 text-2xl font-semibold text-malibu-300">Employ</h3>
-                                        <p>Through our diagnostic feedback, we provide alternative hiring options and best process deployment for the vacancy assignment.</p>
+                                        <p>Through our review plan we co-pilot to implement tailored recruitment processes that connects with business culture and key job demographic outcomes. We offer a range of employment hiring services as an extension to your team.</p>
                                     </div>
                                     <div className="py-4 mt-2">
                                         <h3 className="pb-2 text-2xl font-semibold text-malibu-300">Connect</h3>
                                         <ul className="pl-4 list-disc list-outside">
-                                            <li className="pb-2">We provide onboarding plans and coaching for new hires and business during the first 90 and 180 days.</li>
-                                            <li className="pb-2">Provide 1:1 Employee career coaching and connection solutions.</li>
-                                            <li className="pb-2">Business Employee change & transition advice.</li>
-                                            <li className="pb-2">Employee offboarding solutions and support.</li>
+                                            <li className="pb-2">We provide onboarding plans and mentoring for new employees during first 90 &amp; 180 days.</li>
+                                            <li className="pb-2">Support with 1:1 career mentoring and development.</li>
+                                            <li className="pb-2">Provide business employee change and transitional advice.</li>
+                                            <li className="pb-2">Offboarding solutions and support.</li>
                                         </ul>
                                     </div>
                                 </div>

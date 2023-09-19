@@ -32,7 +32,7 @@ export const NavItems = [
 
 export const connectLinks = [
   { name: 'Employer', href: '/connect-employer' },
-  { name: 'Seeker', href: '/connect-seeker' },
+  { name: 'Job Seeker', href: '/connect-seeker' },
 ]
 
 export const services = [

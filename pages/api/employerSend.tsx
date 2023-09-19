@@ -6,7 +6,7 @@ const resend = new Resend(process.env.RESEND_API_KEY);
 export default async function handler( req: NextApiRequest, res: NextApiResponse) {
   console.log('Data', req.body)
 
-  const { firstName, position, company, phone, industry, email, totalEmployees, vacancydetails, positionStatus } = req.body
+  const { firstName, position, company, phone, industry, email, totalEmployees, vacancydetails, positionStatus, meetingPreference } = req.body
 
   const messageData = {
     from: 'Employer connect <info@talentverse.com.au>',
@@ -22,7 +22,9 @@ export default async function handler( req: NextApiRequest, res: NextApiResponse
     Vacancy details: ${vacancydetails}
     Position status: ${positionStatus}
 
-    You can reach them on: ${phone}   
+    You can reach them on: ${phone}
+    
+    We prefer a meeting via: ${meetingPreference}
     `,
   }
 

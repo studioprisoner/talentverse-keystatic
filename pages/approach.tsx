@@ -56,9 +56,9 @@ export default function Approach() {
                                     </h3>
                                     <p className="pb-6 mt-0 mb-6 text-base border-b-2 border-gray-100 text-shark-700">We use our <span className="font-bold">zero-friction</span> diagnostic approach to achieving better candidate experiences.</p>
                                     <div className="text-sm text-gray-500">
-                                    <p className="mt-6"><strong>Pulse</strong> - We deploy data analytics to understand pre-hire and onboarding candidate experience better, and how to improve it.</p>
-                                    <p className="mt-6"><strong>Pre-Start</strong> - Before boost off we partner with you to agree on best methods of employment.</p>
-                                    <p className="mt-6"><strong>Talent Plan</strong> - We co-pilot to design end-to end Workforce planning solutions that provide positive talent experiences.</p>
+                                    <p className="mt-6"><strong>Pulse</strong> - we deploy data analytics to understand pre-hire and onboarding candidate experience better, and how to improve it.</p>
+                                    <p className="mt-6"><strong>Pre-Start</strong> - before boost off we partner with you to agree on best methods of employment.</p>
+                                    <p className="mt-6"><strong>Talent Plan</strong> - we co-pilot to design end-to end Workforce planning solutions that provide positive talent experiences.</p>
                                 </div>
                                 </div>
                             </div>
@@ -83,9 +83,9 @@ export default function Approach() {
                                     </h3>
                                     <p className="pb-6 mt-0 mb-6 text-base border-b-2 border-gray-100 text-shark-700">We use our <span className="font-bold">3-stage</span> hiring methodology process to find talent.</p>
                                     <div className="text-sm text-gray-500">
-                                    <p className="mt-6"><strong>Attract</strong> - We use predictive job and talent demographic feedback for effective marketing campaigns.</p>
-                                    <p className="mt-6"><strong>Source</strong> - We build and implement best fit talent hiring pipelines for an efficient and friction free candidate experience.</p>
-                                    <p className="mt-6"><strong>Assess &amp; Mobilise</strong> - We provide tailored candidate pre-employment assessments, including Fit for Fork and Human Resource process guarantee.</p>
+                                    <p className="mt-6"><strong>Attract</strong> - we use predictive job and talent demographic feedback for effective marketing campaigns.</p>
+                                    <p className="mt-6"><strong>Source</strong> - we build and implement best fit talent hiring pipelines for an efficient and friction free candidate experience.</p>
+                                    <p className="mt-6"><strong>Assess &amp; Mobilise</strong> - we provide tailored candidate pre-employment assessments including Fit for Work compliance guarantees.</p>
                                 </div>
                                 </div>
                             </div>
@@ -130,7 +130,7 @@ export default function Approach() {
                             <div className="px-6 mx-auto max-w-7xl lg:px-8">
                                 <div className="max-w-2xl mx-auto lg:mx-0">
                                 <h2 className="pb-12 text-4xl font-bold tracking-tight text-white sm:text-6xl">The Job</h2>
-                                <p className="mt-6 text-lg leading-8 text-white">
+                                <p className="mt-6 text-4xl font-bold leading-8 text-white">
                                 Our integrated approach connects outcomes.
                                 </p>
                                 </div>
@@ -153,11 +153,12 @@ export default function Approach() {
                                     <h3 className="mt-0 mb-4 text-2xl font-semibold leading-5 uppercase text-malibu-300">
                                     Connect
                                     </h3>
-                                    <p className="pb-6 mt-0 mb-6 text-base border-b-2 border-gray-100 text-shark-700">We provide 1:1 new hire coaching solutions for better connection and retention outcomes.</p>
+                                    <p className="pb-6 mt-0 mb-6 text-base border-b-2 border-gray-100 text-shark-700">We provide 1:1 new hire mentoring solutions for better business connection and retention.</p>
                                     <div className="text-sm text-gray-500">
-                                    <p className="mt-6"><strong>Onboard</strong> - Career coaching and onboarding plans for new hires and business during the first 90 and 180 days.</p>
-                                    <p className="mt-6"><strong>Engage</strong> - Career Development planning 1:1 and for Teams. Employee experience pulse reviews and action planning.</p>
-                                    <p className="mt-6"><strong>Offboard</strong> - Change & Transition services for business movements. Outplacement solutions that include Career planning services. Employee offboarding pulse feedback reviews.</p>
+                                    <p className="mt-6"><strong>Onboard</strong> - planning and mentoring programs to support new hire during first 90-180-day probation. Early connect employee pulse feedback to understand key friction to engagement.</p>
+                                    
+                                    <p className="mt-6"><strong>Engage</strong> - career navigation 1:1 and development planning post 180- day probation period. 1:1 and team business change ready mentoring and advice.</p>
+                                    <p className="mt-6"><strong>Offboard</strong> - outplacement 1:1 career navigation, mentoring and resume services. Offboarding 1:1 pulse exit surveys and feedback reporting.</p>
                                 </div>
                                 </div>
                             </div>

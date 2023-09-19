@@ -27,7 +27,7 @@ export default function About(){
                         <figure className="relative isolate">
                           <blockquote className="mt-6 text-3xl font-semibold leading-8 text-white">
                             <p>
-                            “Navigating friction-free connection is the frontier of talent hiring and retention.”
+                            “Creating friction-free candidate experience is the frontier of effective employee sourcing and retention.”
                             </p>
                           </blockquote>
                         </figure>                     
@@ -37,15 +37,15 @@ export default function About(){
                         <div className="text-base leading-7 text-gray-700 lg:max-w-lg">
                             <p className="text-4xl font-bold tracking-tight lg:text-6xl text-shark-700">Our story</p>
                             <div className="max-w-xl">
-                                <p className="mt-6">We are specialists at workplace strategy and leading teams in mobilising talent locally, nationally, and globally. We co-partner with range of industry and businesses to deliver on their talent hiring and retention needs. We love what we do, and that drives our passion for navigating friction-free business and talent connections.</p>
+                                <p className="mt-6">We are workforce strategy specialists with experience leading teams in mobilising talent locally, nationally, and globally. We co-partner with a range of industries and businesses to deliver on talent hiring and retention needs. We love what we do, and that drives our passion for navigating friction-free business and talent connections.</p>
                                 <h2 className="mt-2 text-2xl font-semibold tracking-tight text-shark-700 sm:text-4xl">Approach</h2>
-                                <p className="mt-2">We bring a proactive data-driven approach to the hiring, and onboarding new talent. Through our <span className="text-malibu-300">pulse diagnostic</span>, we identify early any pre-hire and onboarding fiction risk. This feedback helps us co-create a tailored <span className="text-malibu-300">workforce plan</span> that focuses on your greatest opportunity for commercial success - your talent.</p>
-                                <p>To support your implementation, we provide hiring team <span className="font-semibold">change ready</span> coaching and support through our <span className="font-semibold">integrated service platforms.</span></p>
+                                <p className="mt-2">We bring a proactive, data-driven approach to hiring and onboarding new talent. Through our pulse diagnostic way, we identify early any pre-hire and onboarding risks. This feedback helps us co-create a tailored workforce plan that focuses on the talent investment.</p>
+                                <p>To support implementation, we provide hiring team’s change ready mentoring and support through our integrated service platforms.</p>
                                 <h2 className="mt-2 text-2xl font-semibold tracking-tight text-shark-700 sm:text-4xl">Mission</h2>
-                                <p className="text-base italic text-malibu-300">To navigate positive employment connection experiences.</p>
-                                <p className="mt-2">The talent demographic and hiring market is increasingly evolving and moving away from traditional and reactive recruitment approaches towards a more agile, predictive and friction-free connected approach.</p>
-                                <p className="mt-2">We welcome you to come journey with us. </p>
-                                <p className="mt-2"><span className="font-semibold text-malibu-300">Jay & Sam</span> - Founding Crew</p>
+                                <p className="text-base italic text-malibu-300">Navigating friction-free employment experiences.</p>
+                                <p className="mt-2">The talent hiring market and rates of candidate demand are The talent hiring market and candidate demand is increasingly evolving increasingly evolving away from one-fit-all recruitment approaches, away from one-fit- all recruitment approaches, towards a more fluid towards a more fluid and friction-free employment experience and friction-free employment experience one. holistic one.</p>
+                                <p className="mt-2">We look forward to connecting with you!</p>
+                                <p className="mt-2"><span className="font-semibold text-malibu-300">Jay & Sam</span> - Crew Team Founders</p>
                             </div>
                         </div>
                         <h2 className="pt-10 mt-10 font-bold uppercase text-malibu-300">Our Values</h2>

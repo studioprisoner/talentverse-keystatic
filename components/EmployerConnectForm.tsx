@@ -1,4 +1,6 @@
+import Link from 'next/link';
 import React, { FormEvent, useState } from "react";
+
 
 export const EmployerContactForm = () => {
 
@@ -12,6 +14,7 @@ export const EmployerContactForm = () => {
     const [vacancydetails, setVacacydetails] = useState("");
     const [positionStatus, setPositionStatus] = useState("");
     const [totalEmployees, setTotalEmployees] = useState("");
+    const [meetingPreference, setMeeting] = useState("");
 
     const onSubmit = async (e: FormEvent) => {
         e.preventDefault()
@@ -29,6 +32,7 @@ export const EmployerContactForm = () => {
               vacancydetails,
               positionStatus,
               totalEmployees,
+              meetingPreference
             }),
             headers: {
               'content-type': 'application/json',
@@ -52,7 +56,9 @@ export const EmployerContactForm = () => {
 
     <div className="px-4 py-12 mx-auto max-w-7xl sm:px-6 sm:py-16 lg:px-8 bg-malibu-300 rounded-xl">
         <form onSubmit={onSubmit}>
+            <h2 className="text-2xl font-bold text-white">Online Talent Vacancy Request</h2>
             <div className="space-y-12">
+                
                 <div className="grid grid-cols-1 mt-10 gap-x-6 gap-y-8 sm:grid-cols-6">
                     <div className="sm:col-span-3">
                     <label htmlFor="first-name" className="block text-base font-semibold text-shark-700">
@@ -236,32 +242,32 @@ export const EmployerContactForm = () => {
                     </div>
 
                     <div className="sm:col-span-4">
-                        <label className="block text-base font-semibold text-shark-700">Job Status</label>
+                        <label className="block text-base font-semibold text-shark-700">New Vaccancy Request - <span className='text-sm text-white hover:text-shark-900'><Link href="/catchzone">See Catchzone services</Link></span></label>
                         <fieldset className="mt-4">
-                            <legend className="sr-only">Are you looking to fill temporary or permanent position?</legend>
+                            <legend className="sr-only">New Vacancy Request</legend>
                             <div className="space-y-4" onChange={(e) => setPositionStatus(e.target.value)}>
-                                <div key="temporary" className="flex items-center">
-                                    <input
-                                        id="temporary"
-                                        type= "radio"
-                                        value="Temporary"
-                                        name='postionStatus'
-                                        className="w-4 h-4 text-shark-700 border-shark-700 focus:ring-shark-900"
-                                    />
-                                    <label htmlFor="yes" className="block ml-3 text-sm font-medium leading-6 text-gray-900">
-                                        Temporary
-                                    </label>
-                                </div>
                                 <div key="permanent" className="flex items-center">
                                     <input
                                         id="permanent"
                                         type= "radio"
-                                        value="Permanent"
+                                        value="Permanent Hire"
                                         name='postionStatus'
                                         className="w-4 h-4 text-shark-700 border-shark-700 focus:ring-shark-900"
                                     />
                                     <label htmlFor="yes" className="block ml-3 text-sm font-medium leading-6 text-gray-900">
-                                        Permanent
+                                        Permanent Hire
+                                    </label>
+                                </div>
+                                <div key="flexible" className="flex items-center">
+                                    <input
+                                        id="flexible"
+                                        type= "radio"
+                                        value="Flexible Hire"
+                                        name='postionStatus'
+                                        className="w-4 h-4 text-shark-700 border-shark-700 focus:ring-shark-900"
+                                    />
+                                    <label htmlFor="yes" className="block ml-3 text-sm font-medium leading-6 text-gray-900">
+                                        Flexible Hire
                                     </label>
                                 </div>
                                 <div key="rpo" className="flex items-center">
@@ -273,7 +279,7 @@ export const EmployerContactForm = () => {
                                         className="w-4 h-4 text-shark-700 border-shark-700 focus:ring-shark-900"
                                     />
                                     <label htmlFor="yes" className="block ml-3 text-sm font-medium leading-6 text-gray-900">
-                                        RPO
+                                        Recruitment Process Outsourcing (RPO)
                                     </label>
                                 </div>
                                 <div key="expert" className="flex items-center">
@@ -285,7 +291,7 @@ export const EmployerContactForm = () => {
                                         className="w-4 h-4 text-shark-700 border-shark-700 focus:ring-shark-900"
                                     />
                                     <label htmlFor="yes" className="block ml-3 text-sm font-medium leading-6 text-gray-900">
-                                        Expert
+                                        On-Demand Expert (let us know below what expert you need)
                                     </label>
                                 </div>
                             </div>
@@ -323,6 +329,53 @@ export const EmployerContactForm = () => {
                         />
                     </div>
                     </div>
+
+                    <div className="sm:col-span-4">
+                        <label className="block text-base font-semibold text-shark-700">Meeting Preference</label>
+                        <fieldset className="mt-4">
+                            <legend className="sr-only">Meeting Prefernce</legend>
+                            <div className="space-y-4" onChange={(e) => setMeeting(e.target.value)}>
+                                <div key="cafe" className="flex items-center">
+                                    <input
+                                        id="cafe"
+                                        type= "radio"
+                                        value="cafe"
+                                        name='meetingPrefernce'
+                                        className="w-4 h-4 text-shark-700 border-shark-700 focus:ring-shark-900"
+                                    />
+                                    <label htmlFor="yes" className="block ml-3 text-sm font-medium leading-6 text-gray-900">
+                                        Cafe
+                                    </label>
+                                </div>
+                                <div key="online" className="flex items-center">
+                                    <input
+                                        id="flexionlineble"
+                                        type= "radio"
+                                        value="online"
+                                        name='meetingPrefernce'
+                                        className="w-4 h-4 text-shark-700 border-shark-700 focus:ring-shark-900"
+                                    />
+                                    <label htmlFor="yes" className="block ml-3 text-sm font-medium leading-6 text-gray-900">
+                                        Online
+                                    </label>
+                                </div>
+                                <div key="office" className="flex items-center">
+                                    <input
+                                        id="office"
+                                        type= "radio"
+                                        value="office"
+                                        name='meetingPrefernce'
+                                        className="w-4 h-4 text-shark-700 border-shark-700 focus:ring-shark-900"
+                                    />
+                                    <label htmlFor="yes" className="block ml-3 text-sm font-medium leading-6 text-gray-900">
+                                        Office
+                                    </label>
+                                </div>
+                            </div>
+                            
+                        </fieldset>
+                    </div>
+
                     
                 </div>
                 <div className="mt-6">

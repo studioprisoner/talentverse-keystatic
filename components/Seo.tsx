@@ -12,7 +12,7 @@ type MetaData = {
 const defaultMeta = {
   title: "Talentverse | Employment Navigation",
   description:
-    "We work with clients and talent to navigate the best connection and retention outcomes.",
+    "We partner with business and talent to navigate the best employment connection experience. We co-pilot with you through every stage of your working journey.",
   imagePath: "/images/seo-image.png",
   imageAlt: "Talentverse Logo",
 };

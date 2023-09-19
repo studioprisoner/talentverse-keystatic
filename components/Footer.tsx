@@ -69,32 +69,22 @@ export default function Footer() {
             </ul>
             </nav>
             <div className="flex lg:justify-end">
-            <form className="max-w-sm">
-              <h2 className="text-base font-semibold uppercase font-dm-sans font-display text-malibu-300">
-                Sign up for our newsletter
-              </h2>
-              <p className="mt-4 text-base font-dm-sans text-neutral-500">
-                Subscribe to get the latest news, articles, resources and more.
-              </p>
-              <div className="relative mt-6">
-                <input
-                  type="email"
-                  placeholder="Email address"
-                  autoComplete="email"
-                  aria-label="Email address"
-                  className="block w-full py-4 pl-6 pr-20 transition bg-transparent border rounded-2xl border-neutral-300 text-base/6 text-neutral-950 ring-4 ring-transparent placeholder:text-neutral-500 focus:border-neutral-950 focus:outline-none focus:ring-neutral-950/5"
-                />
-                <div className="absolute flex justify-end inset-y-1 right-1">
-                  <button
-                    type="submit"
-                    aria-label="Submit"
-                    className="flex items-center justify-center h-full text-white transition aspect-square rounded-xl bg-neutral-950 hover:bg-neutral-800"
-                  >
-                    <ArrowIcon className="w-4" />
-                  </button>
+              <div className="max-w-sm">
+                <h2 className='text-base font-semibold uppercase font-dm-sans text-malibu-300'>Contact Us</h2>
+                <div className='grid grid-cols-2 mt-4 text-base gap-x-8 text-neutral-500'>
+                  <div>
+                    <p>+61 418 926 107</p>
+                    <p>info@talentverse.com.au</p>
+                  </div>
+                  <div>
+                    <a href="https://maps.app.goo.gl/EKEaVtTJgwVJ6d7m8" target="_blank" className='underline hover:text-neutral-700'>
+                      <p>Unit 1/32 Edward Street</p>
+                      <p>Perth WA 6000</p>
+                    </a>
+                  </div>
+                  
                 </div>
               </div>
-            </form>
             </div>
           </div>
           <div className="flex flex-wrap items-end justify-between pt-12 mt-24 mb-20 border-t gap-x-6 gap-y-4 border-neutral-950/10">
@@ -102,11 +92,11 @@ export default function Footer() {
           <img
                 className="w-auto h-16 sm:h-20"
                 src="talentverse-logo.svg"
-                alt=""
+                alt="Talentverse Logo"
               />
           </Link>
           <p className="text-sm text-neutral-500">
-            © Bizcrew Pty Ltd t/as Talentverse. {new Date().getFullYear()} ABN 55 663 912 927. All rights reserved. Employment Agent EA3053 <Link href="/privacy" className="underline">Privacy Policy</Link>
+            &copy; Bizcrew Pty Ltd t/as Talentverse. {new Date().getFullYear()} ABN 55 663 912 927. All rights reserved. Employment Agent EA3053 <Link href="/privacy" className="underline">Privacy Policy</Link>
           </p>
         </div>
         </FadeIn>

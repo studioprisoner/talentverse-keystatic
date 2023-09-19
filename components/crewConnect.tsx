@@ -7,8 +7,8 @@ export const CrewConnectForm = () => {
     const [lastName, setLastName] = useState("");
     const [email, setEmail] = useState("");
     const [phone, setPhone] = useState("");
-    const [partner, setpartner] = useState("");
-    const [cafeChat, setCafeChat] = useState("Yes");
+    const [partner, setPartner] = useState("");
+    const [meetingPreference, setMeeting] = useState("Yes");
 
     const onSubmit = async (e: FormEvent) => {
         e.preventDefault()
@@ -22,7 +22,7 @@ export const CrewConnectForm = () => {
               phone,
               email,
               partner,
-              cafeChat
+              meetingPreference
             }),
             headers: {
               'content-type': 'application/json',
@@ -46,6 +46,7 @@ export const CrewConnectForm = () => {
 
     <div className="px-4 py-12 mx-auto max-w-7xl sm:px-6 sm:py-16 lg:px-8 bg-malibu-300 rounded-xl">
         <form onSubmit={onSubmit}>
+        <h2 className="text-2xl font-bold text-white">Partner Enquiry</h2>
             <div className="space-y-12">
                 <div className="grid grid-cols-1 mt-10 gap-x-6 gap-y-8 sm:grid-cols-6">
                     <div className="sm:col-span-3">
@@ -122,10 +123,10 @@ export const CrewConnectForm = () => {
                     </div>
                     </div>
                     <div className="sm:col-span-4">
-                        <label className="block text-base font-semibold text-shark-700">Job Status</label>
+                        <label className="block text-base font-semibold text-shark-700">Partner Enquiry</label>
                         <fieldset className="mt-4">
-                            <legend className="sr-only">Become a partner</legend>
-                            <div className="space-y-4" onChange={(e) => setpartner(e.target.value)}>
+                            <legend className="sr-only">Partner Enquiry</legend>
+                            <div className="space-y-4" onChange={(e) => setPartner(e.target.value)}>
                                 <div key="inustryAssociation" className="flex items-center">
                                     <input
                                         id="inustryAssociation"
@@ -154,24 +155,24 @@ export const CrewConnectForm = () => {
                                     <input
                                         id="cafe"
                                         type= "radio"
-                                        value="Cafe"
+                                        value="Cafe Partner"
                                         name='partner'
                                         className="w-4 h-4 text-shark-700 border-shark-700 focus:ring-shark-900"
                                     />
                                     <label htmlFor="yes" className="block ml-3 text-sm font-medium leading-6 text-gray-900">
-                                        Cafe
+                                        Cafe Provider
                                     </label>
                                 </div>
                                 <div key="expert" className="flex items-center">
                                     <input
                                         id="expert"
                                         type= "radio"
-                                        value="Expert"
+                                        value="Expert Partner"
                                         name='partner'
                                         className="w-4 h-4 text-shark-700 border-shark-700 focus:ring-shark-900"
                                     />
                                     <label htmlFor="yes" className="block ml-3 text-sm font-medium leading-6 text-gray-900">
-                                        Expert
+                                        Expert Partner
                                     </label>
                                 </div>
                             </div>
@@ -179,32 +180,44 @@ export const CrewConnectForm = () => {
                         </fieldset>
                     </div>
                     <div className="sm:col-span-4">
-                        <label className="block text-base font-semibold text-shark-700">Job Equriy</label>
+                        <label className="block text-base font-semibold text-shark-700">Meeting Preference</label>
                         <fieldset className="mt-4">
-                            <legend className="sr-only">Book a Cafe Chat</legend>
-                            <div className="space-y-4" onChange={(e) => setCafeChat(e.target.value)}>
-                                <div key="yes" className="flex items-center">
+                            <legend className="sr-only">Meeting Preference</legend>
+                            <div className="space-y-4" onChange={(e) => setMeeting(e.target.value)}>
+                                <div key="cafe" className="flex items-center">
                                     <input
-                                        id="yes"
+                                        id="cafe"
                                         type= "radio"
-                                        value="Yes"
-                                        name='cafeChat'
+                                        value="cafe"
+                                        name='meetingPrefernce'
                                         className="w-4 h-4 text-shark-700 border-shark-700 focus:ring-shark-900"
                                     />
                                     <label htmlFor="yes" className="block ml-3 text-sm font-medium leading-6 text-gray-900">
                                         Yes
                                     </label>
                                 </div>
-                                <div key="no" className="flex items-center">
+                                <div key="online" className="flex items-center">
                                     <input
-                                        id="no"
+                                        id="online"
                                         type= "radio"
-                                        value="No"
-                                        name='cafeChat'
+                                        value="online"
+                                        name='meetingPrefernce'
                                         className="w-4 h-4 text-shark-700 border-shark-700 focus:ring-shark-900"
                                     />
                                     <label htmlFor="no" className="block ml-3 text-sm font-medium leading-6 text-gray-900">
-                                        No
+                                        Online
+                                    </label>
+                                </div>
+                                <div key="office" className="flex items-center">
+                                    <input
+                                        id="office"
+                                        type= "radio"
+                                        value="office"
+                                        name='meetingPrefernce'
+                                        className="w-4 h-4 text-shark-700 border-shark-700 focus:ring-shark-900"
+                                    />
+                                    <label htmlFor="no" className="block ml-3 text-sm font-medium leading-6 text-gray-900">
+                                        Office
                                     </label>
                                 </div>
                             </div>
