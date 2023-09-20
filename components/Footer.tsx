@@ -21,9 +21,8 @@ const footerlinks = [
   {
     title: 'Connect',
     links: [
-      { title: 'Facebook', href: '#' },
-      { title: 'Instagram', href: '#' },
-      { title: 'LinkedIn', href: '#' },
+      { title: 'Facebook', href: 'https://www.facebook.com/autalentverse/' },
+      { title: 'LinkedIn', href: 'https://www.linkedin.com/company/talentverseau/' },
     ],
   },
 ]
