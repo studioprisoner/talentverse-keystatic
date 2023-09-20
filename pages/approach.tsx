@@ -158,7 +158,7 @@ export default function Approach() {
                                     <p className="mt-6"><strong>Onboard</strong> - planning and mentoring programs to support new hire during first 90-180-day probation. Early connect employee pulse feedback to understand key friction to engagement.</p>
                                     
                                     <p className="mt-6"><strong>Engage</strong> - career navigation 1:1 and development planning post 180- day probation period. 1:1 and team business change ready mentoring and advice.</p>
-                                    <p className="mt-6"><strong>Offboard</strong> - outplacement 1:1 career navigation, mentoring and resume services. Offboarding 1:1 pulse exit surveys and feedback reporting.</p>
+                                    <p className="mt-6"><strong>Off-board</strong> - outplacement 1:1 career navigation, mentoring and resume services. Off-boarding 1:1 pulse exit surveys and feedback reporting.</p>
                                 </div>
                                 </div>
                             </div>

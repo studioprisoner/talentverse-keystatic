@@ -55,8 +55,10 @@ export default function Coffeecareer() {
                         </div>
                     </div>
                 </div>
-                <ConnectCard />
             </section>
+            <div className="px-6">
+                <ConnectCard />
+            </div>
         </div>
     )
 }

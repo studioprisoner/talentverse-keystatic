@@ -164,7 +164,7 @@ const Header = () => {
           <a className={cx(baseClasses, pathname === '/approach' ? "border-shark-700 border-b-2" : "border-transparent")} href="/approach">Our Approach</a>
           <Popover className="relative">
             <Popover.Button className={cx(baseClasses, "border-transparent")} >
-              <span>Intergrated Services</span>
+              <span>Integrated Services</span>
             </Popover.Button>
             <Transition
               as={Fragment}

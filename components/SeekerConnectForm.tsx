@@ -46,7 +46,7 @@ export const SeekerContactForm = () => {
 
     <div className="px-4 py-12 mx-auto max-w-7xl sm:px-6 sm:py-16 lg:px-8 bg-malibu-300 rounded-xl">
         <form onSubmit={onSubmit}>
-            <h2 className="text-2xl font-bold text-white">Online Enquriy</h2>
+            <h2 className="text-2xl font-bold text-white">Online Enquiry</h2>
             <div className="space-y-12">
                 <div className="grid grid-cols-1 mt-10 gap-x-6 gap-y-8 sm:grid-cols-6">
                     <div className="sm:col-span-3">
@@ -168,9 +168,9 @@ export const SeekerContactForm = () => {
                         </fieldset>
                     </div>
                     <div className="sm:col-span-4">
-                        <label className="block text-base font-semibold text-shark-700">Job Equriy</label>
+                        <label className="block text-base font-semibold text-shark-700">Job Enquiry</label>
                         <fieldset className="mt-4">
-                            <legend className="sr-only">Job Equriy</legend>
+                            <legend className="sr-only">Job Enquiry</legend>
                             <div className="space-y-4" onChange={(e) => setRadioGroup(e.target.value)}>
                                 <div key="applying" className="flex items-center">
                                     <input

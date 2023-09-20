@@ -49,7 +49,7 @@ export default function Bizcrew() {
                                             <li className="pb-2">We provide onboarding plans and mentoring for new employees during first 90 &amp; 180 days.</li>
                                             <li className="pb-2">Support with 1:1 career mentoring and development.</li>
                                             <li className="pb-2">Provide business employee change and transitional advice.</li>
-                                            <li className="pb-2">Offboarding solutions and support.</li>
+                                            <li className="pb-2">Off-boarding solutions and support.</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -57,8 +57,10 @@ export default function Bizcrew() {
                         </div>
                     </div>
                 </div>
-                <ConnectCard />
             </section>
+            <div className="px-6">
+                <ConnectCard />
+            </div>
         </div>
     )
 }

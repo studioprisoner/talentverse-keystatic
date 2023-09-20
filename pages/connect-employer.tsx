@@ -24,7 +24,7 @@ export default function ConnectEmployer() {
                         <div className="px-6 mx-auto max-w-7xl">
                             <div className="flex flex-col">
                                 <dt className="flex items-center pb-2 text-2xl font-bold leading-7 text-malibu-300 gap-x-3">
-                                    Inudstry Experience
+                                    Industry Experience
                                 </dt>
                                 <dd className="text-shark-700">We support clients across various industry sectors that include:</dd>
                                 <dd className="flex flex-col flex-auto mt-4 text-base leading-7 text-shark-500">
@@ -52,7 +52,7 @@ export default function ConnectEmployer() {
                                         <li>Terms of Business</li>
                                         <li>Insurances Cover</li>
                                         <li>Work Health &amp; Safety</li>
-                                        <li>MHuman Resources &amp; Payroll Support</li>
+                                        <li>Human Resources &amp; Payroll Support</li>
                                     </ul>
                                 </dd>
                             </div>

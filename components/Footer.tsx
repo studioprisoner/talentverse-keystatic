@@ -71,12 +71,12 @@ export default function Footer() {
             <div className="flex lg:justify-end">
               <div className="max-w-sm">
                 <h2 className='text-base font-semibold uppercase font-dm-sans text-malibu-300'>Contact Us</h2>
-                <div className='grid grid-cols-2 mt-4 text-base gap-x-8 text-neutral-500'>
+                <div className='grid grid-cols-1 mt-4 text-base sm:grid-cols-2 gap-x-8 text-neutral-500'>
                   <div>
                     <p>+61 418 926 107</p>
                     <p>info@talentverse.com.au</p>
                   </div>
-                  <div>
+                  <div className='mt-2 sm:mt-0'>
                     <a href="https://maps.app.goo.gl/EKEaVtTJgwVJ6d7m8" target="_blank" className='underline hover:text-neutral-700'>
                       <p>Unit 1/32 Edward Street</p>
                       <p>Perth WA 6000</p>

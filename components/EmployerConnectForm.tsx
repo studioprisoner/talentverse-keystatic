@@ -242,7 +242,7 @@ export const EmployerContactForm = () => {
                     </div>
 
                     <div className="sm:col-span-4">
-                        <label className="block text-base font-semibold text-shark-700">New Vaccancy Request - <span className='text-sm text-white hover:text-shark-900'><Link href="/catchzone">See Catchzone services</Link></span></label>
+                        <label className="block text-base font-semibold text-shark-700">New Vacancy Request - <span className='text-sm text-white hover:text-shark-900'><Link href="/catchzone">See Catchzone services</Link></span></label>
                         <fieldset className="mt-4">
                             <legend className="sr-only">New Vacancy Request</legend>
                             <div className="space-y-4" onChange={(e) => setPositionStatus(e.target.value)}>

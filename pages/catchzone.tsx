@@ -34,8 +34,8 @@ export default function Catchzone() {
                                 <div className="max-w-xl">
                                     <div className="py-4 mt-2 border-b-2 border-gray-100">
                                         <h3 className="pb-2 text-2xl font-semibold text-malibu-300">Direct Staffing</h3>
-                                        <p><span className="font-semibold text-malibu-300">Permnanent Hire</span> - direct permanent placement services based on a success fee. All placements come with our concierge retention guarantee.</p>
-                                        <p><span className="font-semibold text-malibu-300">Flexible Hire</span> - emporary hire for short - to longer term resourcing assignments. Try before your hire service provided during probation periods.</p>
+                                        <p><span className="font-semibold text-malibu-300">Permanent Hire</span> - direct permanent placement services based on a success fee. All placements come with our concierge retention guarantee.</p>
+                                        <p><span className="font-semibold text-malibu-300">Flexible Hire</span> - temporary hire for short - to longer term resourcing assignments. Try before your hire service provided during probation periods.</p>
                                     </div>
                                     <div className="py-4 mt-2 border-b-2 border-gray-100">
                                         <h3 className="text-2xl font-semibold text-malibu-300">Recruitment Process Outsourcing - (RPO) </h3>
@@ -59,8 +59,10 @@ export default function Catchzone() {
                         </div>
                     </div>
                 </div>
-                <ConnectCard />
             </section>
+            <div className="px-6">
+                <ConnectCard />
+            </div>
         </div>
     )
 }

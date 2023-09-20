@@ -13,7 +13,7 @@ export default function About(){
   return(
     <div>
         <Seo />
-        <section className="py-24 sm:py-32">
+        <section className="py-12 sm:py-16">
             <div className="px-6 mx-auto max-w-7xl lg:px-8">
                 <div className="grid items-start max-w-2xl grid-cols-1 mx-auto gap-x-8 gap-y-16 sm:gap-y-24 lg:mx-0 lg:max-w-none lg:grid-cols-2">
                     <div className="lg:pr-4">
@@ -40,10 +40,10 @@ export default function About(){
                                 <p className="mt-6">We are workforce strategy specialists with experience leading teams in mobilising talent locally, nationally, and globally. We co-partner with a range of industries and businesses to deliver on talent hiring and retention needs. We love what we do, and that drives our passion for navigating friction-free business and talent connections.</p>
                                 <h2 className="mt-2 text-2xl font-semibold tracking-tight text-shark-700 sm:text-4xl">Approach</h2>
                                 <p className="mt-2">We bring a proactive, data-driven approach to hiring and onboarding new talent. Through our pulse diagnostic way, we identify early any pre-hire and onboarding risks. This feedback helps us co-create a tailored workforce plan that focuses on the talent investment.</p>
-                                <p>To support implementation, we provide hiring team’s change ready mentoring and support through our integrated service platforms.</p>
+                                <p>To support implementation, we provide hiring team's change ready mentoring and support through our integrated service platforms.</p>
                                 <h2 className="mt-2 text-2xl font-semibold tracking-tight text-shark-700 sm:text-4xl">Mission</h2>
                                 <p className="text-base italic text-malibu-300">Navigating friction-free employment experiences.</p>
-                                <p className="mt-2">The talent hiring market and rates of candidate demand are The talent hiring market and candidate demand is increasingly evolving increasingly evolving away from one-fit-all recruitment approaches, away from one-fit- all recruitment approaches, towards a more fluid towards a more fluid and friction-free employment experience and friction-free employment experience one. holistic one.</p>
+                                <p className="mt-2">The talent hiring market and candidate demand is increasingly evolving increasingly evolving away from one-fit-all recruitment approaches, away from one-fit- all recruitment approaches, towards a more fluid towards a more fluid and friction-free employment experience and friction-free employment experience one. holistic one.</p>
                                 <p className="mt-2">We look forward to connecting with you!</p>
                                 <p className="mt-2"><span className="font-semibold text-malibu-300">Jay & Sam</span> - Crew Team Founders</p>
                             </div>
@@ -52,7 +52,7 @@ export default function About(){
                         <dl className="grid grid-cols-2 gap-8 sm:grid-cols-3">
                         {values.map((stat, statIdx) => (
                             <div key={statIdx}>
-                            <dt className="mt-2 text-3xl font-bold leading-10 tracking-tight uppercase text-shark-700">{stat.label}</dt>
+                            <dt className="mt-2 text-xl font-bold leading-10 tracking-tight uppercase sm:text-3xl text-shark-700">{stat.label}</dt>
                             <dd className="text-sm leading-6 text-gray-400">{stat.value}</dd>
                             </div>
                         ))}
@@ -62,7 +62,7 @@ export default function About(){
                 <LogoCloud />
             </div>
         </section>
-        <section>
+        <section className="px-6">
           <ConnectCard />
         </section>
     </div>
