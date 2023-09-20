@@ -241,6 +241,7 @@ export default function Home({
             <div>
               <img
                 src="images/our-approach.svg"
+                alt="Approach Process Diagram"
                 />
             </div>
             <div className="">
