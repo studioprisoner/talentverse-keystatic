@@ -44,7 +44,7 @@ export default function About(){
                                 <p>To support implementation, we provide hiring teams change ready mentoring and support through our integrated service platforms.</p>
                                 <h2 className="mt-2 text-2xl font-semibold tracking-tight text-shark-700 sm:text-4xl">Mission</h2>
                                 <p className="text-base italic text-malibu-300">Navigating friction-free employment experiences.</p>
-                                <p className="mt-2">The talent hiring market and candidate demand is increasingly evolving away from one-fits-all recruitment approaches, away from one-fit- all recruitment approaches, towards a more fluid and friction-free employment experience.</p>
+                                <p className="mt-2">The talent hiring market and candidate demand is increasingly evolving away from one-fits-all recruitment approaches, towards a more fluid and friction-free employment experience.</p>
                                 <p className="mt-2">We look forward to connecting with you!</p>
                                 <p className="mt-2">Crew Team Partners</p>
                             </div>
