@@ -58,7 +58,6 @@ const Header = () => {
                 <li  className="mt-4 ml-4 text-sm text-shark-300"><a href="/connect-seeker" title="Bizcrew">Job Seeker</a></li>
               </ul>
             </li>
-            <li className="mt-4 text-malibu-300"><a href="/connect" title="Connect With Us">Connect</a></li>
             <li className="mt-4 text-malibu-300"><a href="/approach" title="Our Approach">Our Approach</a></li>
             <li className="mt-4">
               <ul>
