@@ -60,7 +60,7 @@ export default function About(){
                         </dl>
                     </div>
                 </div>
-                <LogoCloud />
+                
             </div>
         </section>
         <section className="px-6">
