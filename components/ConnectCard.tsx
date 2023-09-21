@@ -8,7 +8,7 @@ const  ConenctCard = () => {
     return (
         <div className="mx-auto max-w-7xl sm:py-8 bg-malibu-300 rounded-2xl">
             <div className="py-6 mx-10">
-                <h1 className="text-4xl font-bold text-white">Lets Connect</h1>
+                <h1 className="text-4xl font-bold text-white">Let's Connect</h1>
                 <span className="pr-5 font-bold uppercase text-shark-700">Cafe</span><span className="pr-5 font-bold uppercase text-shark-700">Online</span><span className="pr-5 font-bold uppercase text-shark-700">Office</span>
                 <div className="mt-10">
                     <div className="grid grid-flow-col grid-rows-2 gap-y-8 gap-x-24 sm:grid-rows-1" aria-label="Tabs">

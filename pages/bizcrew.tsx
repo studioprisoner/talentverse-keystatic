@@ -33,7 +33,7 @@ export default function Bizcrew() {
                         <div className="grid grid-cols-1 pb-8 place-content-center">
                             <div className="text-lg leading-7 text-gray-700 lg:max-w-lg">
                                 <div className="max-w-xl">
-                                    <h2 className="pb-4 text-2xl font-bold sm:text-4xl">Specialist advice - designing best workforce plan</h2>
+                                    <h2 className="pb-4 text-2xl font-bold sm:text-4xl">Specialist advice - designing the best workforce plan</h2>
                                     <p>We deploy our <span className="text-malibu-300">3-step</span> diagnostic approach across each one of our integrated service stages.</p>
                                     <div className="py-4 mt-6 border-b-2 border-gray-100">
                                         <h3 className="pb-2 text-2xl font-semibold text-malibu-300">Navigate</h3>

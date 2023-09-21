@@ -3,7 +3,7 @@ import ConnectCard from "../components/ConnectCard";
 import LogoCloud from "../components/LogoCloud";
 
 const values = [
-  { label: 'We Listen', value: 'We work on 80/20 listening approach.' },
+  { label: 'We Listen', value: 'We work on a 80/20 listening approach.' },
   { label: 'We Clarify', value: 'We partner to provide clarity to your goals.' },
   { label: 'We Care', value: 'We are passionate about your outcomes.' },
 ]
@@ -27,7 +27,7 @@ export default function About(){
                         <figure className="relative isolate">
                           <blockquote className="mt-6 text-3xl font-semibold leading-8 text-white">
                             <p>
-                            “Creating friction-free candidate experience is the frontier of effective employee sourcing and retention.”
+                            “Creating a friction-free candidate experience is the frontier of effective employee sourcing and retention.”
                             </p>
                           </blockquote>
                         </figure>                     
@@ -39,13 +39,14 @@ export default function About(){
                             <div className="max-w-xl">
                                 <p className="mt-6">We are workforce strategy specialists with experience leading teams in mobilising talent locally, nationally, and globally. We co-partner with a range of industries and businesses to deliver on talent hiring and retention needs. We love what we do, and that drives our passion for navigating friction-free business and talent connections.</p>
                                 <h2 className="mt-2 text-2xl font-semibold tracking-tight text-shark-700 sm:text-4xl">Approach</h2>
-                                <p className="mt-2">We bring a proactive, data-driven approach to hiring and onboarding new talent. Through our pulse diagnostic way, we identify early any pre-hire and onboarding risks. This feedback helps us co-create a tailored workforce plan that focuses on the talent investment.</p>
-                                <p>To support implementation, we provide hiring team's change ready mentoring and support through our integrated service platforms.</p>
+                                <p className="mt-2">We bring a proactive, data-driven approach to hiring and onboarding new talent. Through our pulse diagnostic survey.</p>
+                                <p className="mt-2">We identify early any pre-hire and onboarding risks. This feedback helps us co-create a tailored workforce plan that focuses on the talent investment.</p>
+                                <p>To support implementation, we provide hiring teams change ready mentoring and support through our integrated service platforms.</p>
                                 <h2 className="mt-2 text-2xl font-semibold tracking-tight text-shark-700 sm:text-4xl">Mission</h2>
                                 <p className="text-base italic text-malibu-300">Navigating friction-free employment experiences.</p>
-                                <p className="mt-2">The talent hiring market and candidate demand is increasingly evolving increasingly evolving away from one-fit-all recruitment approaches, away from one-fit- all recruitment approaches, towards a more fluid towards a more fluid and friction-free employment experience and friction-free employment experience one. holistic one.</p>
+                                <p className="mt-2">The talent hiring market and candidate demand is increasingly evolving away from one-fits-all recruitment approaches, away from one-fit- all recruitment approaches, towards a more fluid and friction-free employment experience.</p>
                                 <p className="mt-2">We look forward to connecting with you!</p>
-                                <p className="mt-2"><span className="font-semibold text-malibu-300">Jay & Sam</span> - Crew Team Founders</p>
+                                <p className="mt-2">Crew Team Partners</p>
                             </div>
                         </div>
                         <h2 className="pt-10 mt-10 font-bold uppercase text-malibu-300">Our Values</h2>
