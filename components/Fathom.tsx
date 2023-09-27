@@ -10,7 +10,7 @@ function TrackPageView() {
 
   // Load the Fathom script on mount
   useEffect(() => {
-    load("FATHOM_ID", {
+    load("ETRIFJXG", {
       includedDomains: ["talentverse.com.au", "www.talentverse.com.au"],
       auto: false,
     });
