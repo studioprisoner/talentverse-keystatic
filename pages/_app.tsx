@@ -1,7 +1,5 @@
 import type { AppProps } from "next/app";
-import { useEffect } from 'react';
-import { useRouter } from 'next/router';
-import * as Fathom from 'fathom-client';
+import Fathom from "../components/Fathom";
 
 import "../styles/global.css";
 import "../styles/scoped-preflight.css";
@@ -12,28 +10,10 @@ import Footer from "../components/Footer";
 
 
 function MyApp({ Component, pageProps }: AppProps) {
-
-  const router = useRouter();
-
-  useEffect(() => {
-    Fathom.load(process.env.FATHOM_ID, {
-      includedDomains: ['talentverse.com.au', 'www.talentverse.com.au']
-    });
-  
-    function onRouteChangeComplete() {
-      Fathom.trackPageview();
-    }
-  
-    router.events.on('routeChangeComplete', onRouteChangeComplete);
-  
-    return () => {
-      router.events.off('routeChangeComplete', onRouteChangeComplete);
-    };
-  }, []);
-
   
   return (
     <div className="relative bg-white">
+      <Fathom />
       <Header />
       <main>
           <Component {...pageProps} />
