@@ -250,7 +250,7 @@ export default function Home({
                         <p className="mt-2 text-3xl font-bold tracking-tight text-shark-700 sm:text-4xl">Our Approach</p>
                         <p className="mt-6 text-lg leading-8 text-shark-700">Before every take-off we connect with you to understand your specific needs. Through our 3-stage diagnostic approach, we co-create a tailored talent plan to achieve your outcomes.</p>
                         <p className="mt-6">
-                          <Link href="/apporach" className="text-base font-semibold leading-6 text-malibu-300 hover:text-shark-700">
+                          <Link href="/approach" className="text-base font-semibold leading-6 text-malibu-300 hover:text-shark-700">
                             Find out more about our approach <span aria-hidden="true">→</span>
                           </Link>
                         </p>
