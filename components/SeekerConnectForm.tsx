@@ -46,7 +46,7 @@ export const SeekerContactForm = () => {
 
     <div className="px-4 py-12 mx-auto max-w-7xl sm:px-6 sm:py-16 lg:px-8 bg-malibu-300 rounded-xl">
         <form onSubmit={onSubmit}>
-            <h2 className="text-2xl font-bold text-white">Online Enquiry</h2>
+            <h2 className="text-2xl font-bold text-white uppercase">Job Seeker Enquiry</h2>
             <div className="space-y-12">
                 <div className="grid grid-cols-1 mt-10 gap-x-6 gap-y-8 sm:grid-cols-6">
                     <div className="sm:col-span-3">
@@ -123,44 +123,44 @@ export const SeekerContactForm = () => {
                     </div>
                     </div>
                     <div className="sm:col-span-4">
-                        <label className="block text-base font-semibold text-shark-700">Talentverse Services</label>
+                        <label className="block text-base font-semibold text-shark-700">Job Enquiry</label>
                         <fieldset className="mt-4">
-                            <legend className="sr-only">Talentverse Services</legend>
+                            <legend className="sr-only">Job Enquiry</legend>
                             <div className="space-y-4" onChange={(e) => setTalentServices(e.target.value)}>
-                                <div key="advise" className="flex items-center">
-                                    <input
-                                        id="advise"
-                                        type= "radio"
-                                        value="Career Navigation Advice"
-                                        name='talentServices'
-                                        className="w-4 h-4 text-shark-700 border-shark-700 focus:ring-shark-900"
-                                    />
-                                    <label htmlFor="yes" className="block ml-3 text-sm font-medium leading-6 text-gray-900">
-                                        Career Navigation Advice
-                                    </label>
-                                </div>
                                 <div key="resume" className="flex items-center">
                                     <input
                                         id="resume"
                                         type= "radio"
-                                        value="Resume Services"
+                                        value="Apply for Job/Submit Resume"
                                         name='talentServices'
                                         className="w-4 h-4 text-shark-700 border-shark-700 focus:ring-shark-900"
                                     />
                                     <label htmlFor="yes" className="block ml-3 text-sm font-medium leading-6 text-gray-900">
-                                        Passively open to new opportunities
+                                        Apply for Job/Submit Resume
                                     </label>
                                 </div>
-                                <div key="referral" className="flex items-center">
+                                <div key="advice" className="flex items-center">
                                     <input
-                                        id="referral"
+                                        id="advice"
                                         type= "radio"
-                                        value="Referral Rewards"
+                                        value="Employment Advice"
                                         name='talentServices'
                                         className="w-4 h-4 text-shark-700 border-shark-700 focus:ring-shark-900"
                                     />
                                     <label htmlFor="yes" className="block ml-3 text-sm font-medium leading-6 text-gray-900">
-                                        Referral Rewards
+                                        Employment Advice
+                                    </label>
+                                </div>
+                                <div key="enquiry" className="flex items-center">
+                                    <input
+                                        id="enquiry"
+                                        type= "radio"
+                                        value="Pay Enquiry/Timekeeping"
+                                        name='talentServices'
+                                        className="w-4 h-4 text-shark-700 border-shark-700 focus:ring-shark-900"
+                                    />
+                                    <label htmlFor="yes" className="block ml-3 text-sm font-medium leading-6 text-gray-900">
+                                        Pay Enquiry/Timekeeping
                                     </label>
                                 </div>
                             </div>
@@ -168,44 +168,44 @@ export const SeekerContactForm = () => {
                         </fieldset>
                     </div>
                     <div className="sm:col-span-4">
-                        <label className="block text-base font-semibold text-shark-700">Job Enquiry</label>
+                        <label className="block text-base font-semibold text-shark-700">JCareer Connect Enquiry</label>
                         <fieldset className="mt-4">
-                            <legend className="sr-only">Job Enquiry</legend>
+                            <legend className="sr-only">Career Connect Enquiry</legend>
                             <div className="space-y-4" onChange={(e) => setRadioGroup(e.target.value)}>
-                                <div key="applying" className="flex items-center">
+                                <div key="navigation" className="flex items-center">
                                     <input
-                                        id="applying"
+                                        id="navigation"
                                         type= "radio"
-                                        value="applying"
+                                        value="Career Navigation"
                                         name='jobEnquiry'
                                         className="w-4 h-4 text-shark-700 border-shark-700 focus:ring-shark-900"
                                     />
                                     <label htmlFor="yes" className="block ml-3 text-sm font-medium leading-6 text-gray-900">
-                                        Apply for Job
+                                        Career Navigation
+                                    </label>
+                                </div>
+                                <div key="coaching" className="flex items-center">
+                                    <input
+                                        id="coaching"
+                                        type= "radio"
+                                        value="Interview Coaching"
+                                        name='jobEnquiry'
+                                        className="w-4 h-4 text-shark-700 border-shark-700 focus:ring-shark-900"
+                                    />
+                                    <label htmlFor="yes" className="block ml-3 text-sm font-medium leading-6 text-gray-900">
+                                        Interview Coaching
                                     </label>
                                 </div>
                                 <div key="resmue" className="flex items-center">
                                     <input
-                                        id="cresmue"
+                                        id="resmue"
                                         type= "radio"
-                                        value="Submit My Resume"
+                                        value="Resume Services"
                                         name='jobEnquiry'
                                         className="w-4 h-4 text-shark-700 border-shark-700 focus:ring-shark-900"
                                     />
                                     <label htmlFor="yes" className="block ml-3 text-sm font-medium leading-6 text-gray-900">
-                                        Submit My Resume
-                                    </label>
-                                </div>
-                                <div key="timesheet" className="flex items-center">
-                                    <input
-                                        id="timesheet"
-                                        type= "radio"
-                                        value="Submit My Timesheet"
-                                        name='jobEnquiry'
-                                        className="w-4 h-4 text-shark-700 border-shark-700 focus:ring-shark-900"
-                                    />
-                                    <label htmlFor="yes" className="block ml-3 text-sm font-medium leading-6 text-gray-900">
-                                        Submit My Timesheet
+                                        Resume Services
                                     </label>
                                 </div>
                             </div>

@@ -9,9 +9,9 @@ export default function Approach() {
     return (
         <div>
             <Seo />
-            <section className="px-6 pt-12 mx-auto max-w-7xl lg:px-8 lg:pt-32">
+            <section className="px-6 pt-8 mx-auto max-w-7xl lg:px-8 lg:pt-16">
                 <div>
-                    <h1 className="text-4xl font-bold tracking-tight lg:text-6xl text-shark-700">Navigating the best talent journey experience. </h1>
+                    <h1 className="text-4xl font-bold tracking-tight lg:text-6xl text-shark-700">Navigating the total employment experience</h1>
                 </div>
                 <div className="py-8 mx-auto max-w-7xl sm:py-10">
                     <div className="max-w-2xl mx-auto lg:mx-0 lg:grid lg:max-w-none lg:grid-cols-2 lg:gap-x-16 lg:gap-y-6 xl:grid-cols-1 xl:grid-rows-1 xl:gap-x-8">
@@ -20,16 +20,16 @@ export default function Approach() {
                             Talentverse provides a strategic workforce planning approach towards the total employment experience.
                             </p>
                             <p className="mb-4 text-lg leading-8 text-gray-500 sm:text-xl">
-                            Through our talent <span className="italic font-bold">Navigate, Employ and Connect</span> integrated stages we have you covered.
+                            Through the talent navigate, employ and connect integrated stages we keep you connected.
                             </p>
                             <p className="mb-4 text-lg leading-8 text-gray-500 sm:text-xl">
-                            At each stage we provide specialist support services through our Bizcrew, Catchzone and Coffee & Careers integrated platforms.
+                            At each stage we provide specialist support via our Bizcrew, Catchzone and Coffee &amp; Careers integrated service platforms.
                             </p>
                         </div>
                         <Image
                             src={trainingroom}
-                            alt=""
-                            className="object-cover w-full max-w-lg mt-10 sm:w-2/4 sm:ml-20 sm:mt-0 rounded-2xl xl:row-span-2 xl:row-end-2"
+                            alt="Man in a training room"
+                            className="object-cover w-full max-w-lg mt-10 sm:w-2/5 sm:ml-20 sm:mt-0 rounded-2xl xl:row-span-2 xl:row-end-2"
                         />
                     </div>
                 </div>

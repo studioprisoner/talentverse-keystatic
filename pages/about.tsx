@@ -39,14 +39,14 @@ export default function About(){
                             <div className="max-w-xl">
                                 <p className="mt-6">We are workforce strategy specialists with experience leading teams in mobilising talent locally, nationally, and globally. We co-partner with a range of industries and businesses to deliver on talent hiring and retention needs. We love what we do, and that drives our passion for navigating friction-free business and talent connections.</p>
                                 <h2 className="mt-2 text-2xl font-semibold tracking-tight text-shark-700 sm:text-4xl">Approach</h2>
-                                <p className="mt-2">We bring a proactive, data-driven approach to hiring and onboarding new talent. Through our pulse diagnostic survey.</p>
-                                <p className="mt-2">We identify early any pre-hire and onboarding risks. This feedback helps us co-create a tailored workforce plan that focuses on the talent investment.</p>
+                                <p className="mt-2">We bring a proactive, data-driven approach to employing and onboarding talent. Through our workplace pulse reviews, we identify early, any pre-hire and onboarding risks. This feedback helps us co-create a tailored workforce plan for you.</p>
+                                <p className="mt-2">To support implementation, we provide teams change ready mentoring and support through our integrated service platforms.</p>
                                 <p>To support implementation, we provide hiring teams change ready mentoring and support through our integrated service platforms.</p>
                                 <h2 className="mt-2 text-2xl font-semibold tracking-tight text-shark-700 sm:text-4xl">Mission</h2>
                                 <p className="text-base italic text-malibu-300">Navigating friction-free employment experiences.</p>
-                                <p className="mt-2">The talent hiring market and candidate demand is increasingly evolving away from one-fits-all recruitment approaches, towards a more fluid and friction-free employment experience.</p>
-                                <p className="mt-2">We look forward to connecting with you!</p>
-                                <p className="mt-2">Crew Team Partners</p>
+                                <p className="mt-2">The talent hiring market and candidate economy is increasingly evolving away from one-fits-all recruitment approaches, towards a more unbiased and friction-free employment experience.</p>
+                                <p className="mt-2">We welcome you to connect and find out more.</p>
+                                <p className="mt-2">Talentverse - Crew Team Partners</p>
                             </div>
                         </div>
                         <h2 className="pt-10 mt-10 font-bold uppercase text-malibu-300">Our Values</h2>
@@ -54,7 +54,7 @@ export default function About(){
                         {values.map((stat, statIdx) => (
                             <div key={statIdx}>
                             <dt className="mt-2 text-xl font-bold leading-10 tracking-tight uppercase sm:text-3xl text-shark-700">{stat.label}</dt>
-                            <dd className="text-sm leading-6 text-gray-400">{stat.value}</dd>
+                            <dd className="text-sm leading-6 tracking-tight text-gray-400">{stat.value}</dd>
                             </div>
                         ))}
                         </dl>

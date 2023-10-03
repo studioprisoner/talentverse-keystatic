@@ -12,11 +12,10 @@ export default function ConnectEmployer() {
             <div className="py-12 sm:py-16">
                 <div className="px-6 mx-auto max-w-7xl lg:px-8">
                     <div className="mb-10">
-                        <h2 className="text-base font-semibold leading-7 uppercase text-malibu-300">Going on the journey with you</h2>
+                        <h2 className="text-base font-semibold leading-7 uppercase text-malibu-300">Starting the journey</h2>
                         <h1 className="text-4xl font-bold text-shark-700">Employer Connect</h1>
-                        <p className="mt-4 text-base leading-8 text-shark-500">Please complete your online <span className='font-bold'>talent request</span> and our Crew will connect with you soon.</p>
-                        <p className="text-base leading-8 text-shark-500">Next steps will be undertaking our <span className="font-bold">pre-pulse</span> review to understand your workforce needs better.</p>
-                        <p className="text-base leading-8 text-shark-500">Finally, a <span className="font-bold">pre-start</span> meeting will be confirmed to clarify and action the best workforce plan.</p>
+                        <p className="mt-4 text-base leading-8 text-shark-500"><span className='text-malibu-300'>Welcome onboard!</span> We look forward to co-piloting with you to <span className='text-malibu-300'>navigate, employ</span> and <span className='text-malibu-300'>connect</span> on your next workforce project. To understand your requirements better please complete our online enquiry form.</p>
+                        <p className="text-base leading-8 text-shark-500">Need advice on that next hire? - We welcome you to connect.</p>
                     </div>
                     <EmployerContactForm />
                     

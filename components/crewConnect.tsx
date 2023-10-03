@@ -7,6 +7,7 @@ export const CrewConnectForm = () => {
     const [lastName, setLastName] = useState("");
     const [email, setEmail] = useState("");
     const [phone, setPhone] = useState("");
+    const [reasonEnquiry, setReason] = useState("");
     const [partner, setPartner] = useState("");
     const [meetingPreference, setMeeting] = useState("Yes");
 
@@ -21,6 +22,7 @@ export const CrewConnectForm = () => {
               lastName,
               phone,
               email,
+              reasonEnquiry,
               partner,
               meetingPreference
             }),
@@ -46,7 +48,7 @@ export const CrewConnectForm = () => {
 
     <div className="px-4 py-12 mx-auto max-w-7xl sm:px-6 sm:py-16 lg:px-8 bg-malibu-300 rounded-xl">
         <form onSubmit={onSubmit}>
-        <h2 className="text-2xl font-bold text-white">Partner Enquiry</h2>
+        <h2 className="text-2xl font-bold text-white uppercase">Partner Enquiry</h2>
             <div className="space-y-12">
                 <div className="grid grid-cols-1 mt-10 gap-x-6 gap-y-8 sm:grid-cols-6">
                     <div className="sm:col-span-3">
@@ -123,56 +125,60 @@ export const CrewConnectForm = () => {
                     </div>
                     </div>
                     <div className="sm:col-span-4">
+                        <label className="block text-base font-semibold text-shark-700">Reason for Enquiry</label>
+                        <textarea key="reason" id="reason" rows="3" name="reason" className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-shark-900 sm:text-sm sm:leading-6"  onChange={(e) => setReason(e.target.value)}></textarea>
+                    </div>
+                    <div className="sm:col-span-4">
                         <label className="block text-base font-semibold text-shark-700">Partner Enquiry</label>
                         <fieldset className="mt-4">
-                            <legend className="sr-only">Partner Enquiry</legend>
+                            <legend className="sr-only">Partner Type</legend>
                             <div className="space-y-4" onChange={(e) => setPartner(e.target.value)}>
-                                <div key="inustryAssociation" className="flex items-center">
+                                <div key="expert" className="flex items-center">
                                     <input
-                                        id="inustryAssociation"
+                                        id="expert"
                                         type= "radio"
-                                        value="Industry Association"
+                                        value="expert"
                                         name='partner'
                                         className="w-4 h-4 text-shark-700 border-shark-700 focus:ring-shark-900"
                                     />
                                     <label htmlFor="yes" className="block ml-3 text-sm font-medium leading-6 text-gray-900">
-                                        Industry Assocation
+                                        Expert
                                     </label>
                                 </div>
-                                <div key="learningInstitution" className="flex items-center">
+                                <div key="industry" className="flex items-center">
                                     <input
-                                        id="learningInstitution"
+                                        id="learningindustryInstitution"
                                         type= "radio"
-                                        value="Learning Partner"
+                                        value="industry"
                                         name='partner'
                                         className="w-4 h-4 text-shark-700 border-shark-700 focus:ring-shark-900"
                                     />
                                     <label htmlFor="yes" className="block ml-3 text-sm font-medium leading-6 text-gray-900">
-                                        Learning Partner
+                                        Industry
+                                    </label>
+                                </div>
+                                <div key="education" className="flex items-center">
+                                    <input
+                                        id="education"
+                                        type= "radio"
+                                        value="Education"
+                                        name='partner'
+                                        className="w-4 h-4 text-shark-700 border-shark-700 focus:ring-shark-900"
+                                    />
+                                    <label htmlFor="yes" className="block ml-3 text-sm font-medium leading-6 text-gray-900">
+                                        Education
                                     </label>
                                 </div>
                                 <div key="cafe" className="flex items-center">
                                     <input
                                         id="cafe"
                                         type= "radio"
-                                        value="Cafe Partner"
+                                        value="Café"
                                         name='partner'
                                         className="w-4 h-4 text-shark-700 border-shark-700 focus:ring-shark-900"
                                     />
                                     <label htmlFor="yes" className="block ml-3 text-sm font-medium leading-6 text-gray-900">
-                                        Cafe Provider
-                                    </label>
-                                </div>
-                                <div key="expert" className="flex items-center">
-                                    <input
-                                        id="expert"
-                                        type= "radio"
-                                        value="Expert Partner"
-                                        name='partner'
-                                        className="w-4 h-4 text-shark-700 border-shark-700 focus:ring-shark-900"
-                                    />
-                                    <label htmlFor="yes" className="block ml-3 text-sm font-medium leading-6 text-gray-900">
-                                        Expert Partner
+                                        Café
                                     </label>
                                 </div>
                             </div>
@@ -193,7 +199,7 @@ export const CrewConnectForm = () => {
                                         className="w-4 h-4 text-shark-700 border-shark-700 focus:ring-shark-900"
                                     />
                                     <label htmlFor="yes" className="block ml-3 text-sm font-medium leading-6 text-gray-900">
-                                        Yes
+                                        Café
                                     </label>
                                 </div>
                                 <div key="online" className="flex items-center">

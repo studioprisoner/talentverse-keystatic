@@ -30,7 +30,7 @@ export default function Bizcrew() {
                                 />
                             </div>
                         </div>
-                        <div className="grid grid-cols-1 pb-8 place-content-center">
+                        <div className="grid grid-cols-1 pt-8 place-content-center">
                             <div className="text-lg leading-7 text-gray-700 lg:max-w-lg">
                                 <div className="max-w-xl">
                                     <h2 className="pb-4 text-2xl font-bold sm:text-4xl">Specialist advice - designing the best workforce plan</h2>
@@ -41,16 +41,11 @@ export default function Bizcrew() {
                                     </div>
                                     <div className="py-4 mt-2 border-b-2 border-gray-100">
                                         <h3 className="pb-2 text-2xl font-semibold text-malibu-300">Employ</h3>
-                                        <p>Through our review plan we co-pilot to implement tailored recruitment processes that connects with business culture and key job demographic outcomes. We offer a range of employment hiring services as an extension to your team.</p>
+                                        <p>Through our talent plan we co-pilot to implement tailored hiring solutions that connect with key business outcomes.</p>
                                     </div>
                                     <div className="py-4 mt-2">
                                         <h3 className="pb-2 text-2xl font-semibold text-malibu-300">Connect</h3>
-                                        <ul className="pl-4 list-disc list-outside">
-                                            <li className="pb-2">We provide onboarding plans and mentoring for new employees during first 90 &amp; 180 days.</li>
-                                            <li className="pb-2">Support with 1:1 career mentoring and development.</li>
-                                            <li className="pb-2">Provide business employee change and transitional advice.</li>
-                                            <li className="pb-2">Off-boarding solutions and support.</li>
-                                        </ul>
+                                        <p>We partner to provide connection during on-boarding, engagement and off-boarding stages of employment.</p>
                                     </div>
                                 </div>
                             </div>

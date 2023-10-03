@@ -12,6 +12,7 @@ export const EmployerContactForm = () => {
     const [phone, setPhone] = useState("");
     const [industry, setIndustry] = useState("");
     const [vacancydetails, setVacacydetails] = useState("");
+    const [talentAdvice, setAdvice] = useState("");
     const [positionStatus, setPositionStatus] = useState("");
     const [totalEmployees, setTotalEmployees] = useState("");
     const [meetingPreference, setMeeting] = useState("");
@@ -30,6 +31,7 @@ export const EmployerContactForm = () => {
               email,
               industry,
               vacancydetails,
+              talentAdvice,
               positionStatus,
               totalEmployees,
               meetingPreference
@@ -56,7 +58,7 @@ export const EmployerContactForm = () => {
 
     <div className="px-4 py-12 mx-auto max-w-7xl sm:px-6 sm:py-16 lg:px-8 bg-malibu-300 rounded-xl">
         <form onSubmit={onSubmit}>
-            <h2 className="text-2xl font-bold text-white">Online Talent Vacancy Request</h2>
+            <h2 className="text-2xl font-bold text-white uppercase">Talent Enquiry</h2>
             <div className="space-y-12">
                 
                 <div className="grid grid-cols-1 mt-10 gap-x-6 gap-y-8 sm:grid-cols-6">
@@ -242,9 +244,9 @@ export const EmployerContactForm = () => {
                     </div>
 
                     <div className="sm:col-span-4">
-                        <label className="block text-base font-semibold text-shark-700">New Vacancy Request - <span className='text-sm text-white hover:text-shark-900'><Link href="/catchzone">See Catchzone services</Link></span></label>
+                        <label className="block text-base font-semibold text-shark-700">Hiring Request - <span className='text-sm text-white hover:text-shark-900'><Link href="/catchzone">See Catchzone services</Link></span></label>
                         <fieldset className="mt-4">
-                            <legend className="sr-only">New Vacancy Request</legend>
+                            <legend className="sr-only">Hiring Request</legend>
                             <div className="space-y-4" onChange={(e) => setPositionStatus(e.target.value)}>
                                 <div key="permanent" className="flex items-center">
                                     <input
@@ -291,11 +293,55 @@ export const EmployerContactForm = () => {
                                         className="w-4 h-4 text-shark-700 border-shark-700 focus:ring-shark-900"
                                     />
                                     <label htmlFor="yes" className="block ml-3 text-sm font-medium leading-6 text-gray-900">
-                                        On-Demand Expert (let us know below what expert you need)
+                                       Expert Hire
                                     </label>
                                 </div>
                             </div>
-                            
+                        </fieldset>
+                    </div>
+
+                    <div className="sm:col-span-4">
+                        <label className="block text-base font-semibold text-shark-700">Talent Advice - <span className='text-sm text-white hover:text-shark-900'><Link href="/coffee-career">See Coffee &amp; Careers</Link></span></label>
+                        <fieldset className="mt-4">
+                            <legend className="sr-only">Talent Advice</legend>
+                            <div className="space-y-4" onChange={(e) => setAdvice(e.target.value)}>
+                                <div key="onboarding" className="flex items-center">
+                                    <input
+                                        id="onboarding"
+                                        type= "radio"
+                                        value="onboarding"
+                                        name='talentAdvice'
+                                        className="w-4 h-4 text-shark-700 border-shark-700 focus:ring-shark-900"
+                                    />
+                                    <label htmlFor="yes" className="block ml-3 text-sm font-medium leading-6 text-gray-900">
+                                        Onboarding
+                                    </label>
+                                </div>
+                                <div key="engagement" className="flex items-center">
+                                    <input
+                                        id="engagement"
+                                        type= "radio"
+                                        value="engagement"
+                                        name='talentAdvice'
+                                        className="w-4 h-4 text-shark-700 border-shark-700 focus:ring-shark-900"
+                                    />
+                                    <label htmlFor="yes" className="block ml-3 text-sm font-medium leading-6 text-gray-900">
+                                        Engagement
+                                    </label>
+                                </div>
+                                <div key="offboarding" className="flex items-center">
+                                    <input
+                                        id="offboarding"
+                                        type= "radio"
+                                        value="offboarding"
+                                        name='talentAdvice'
+                                        className="w-4 h-4 text-shark-700 border-shark-700 focus:ring-shark-900"
+                                    />
+                                    <label htmlFor="yes" className="block ml-3 text-sm font-medium leading-6 text-gray-900">
+                                        Offboarding
+                                    </label>
+                                </div>
+                            </div>
                         </fieldset>
                     </div>
 
@@ -317,7 +363,7 @@ export const EmployerContactForm = () => {
 
                     <div className="sm:col-span-4">
                     <label htmlFor="email" className="block text-base font-semibold text-shark-700">
-                        Job Vacancy Details
+                    Request Details
                     </label>
                     <div className="mt-2">
                         <textarea

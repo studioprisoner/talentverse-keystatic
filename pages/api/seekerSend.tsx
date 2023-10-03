@@ -6,7 +6,7 @@ const resend = new Resend(process.env.RESEND_API_KEY);
 export default async function handler( req: NextApiRequest, res: NextApiResponse) {
   console.log('Data', req.body)
 
-  const { firstName, lastName, phone, email, talentServices, radioGroup } = req.body
+  const { firstName, lastName, phone, email, reasonEnquiry, talentServices, radioGroup } = req.body
 
   const messageData = {
     from: 'Seeker Connect form <info@talentverse.com.au>',
@@ -17,7 +17,8 @@ export default async function handler( req: NextApiRequest, res: NextApiResponse
     You have a new form entry from: ${firstName} ${lastName} ${email}.
 
     Job Status: ${talentServices}
-    They're intested in a Job Enquiry: ${radioGroup}
+    Job Enquiry: ${radioGroup}
+    Career Connect Enquiry: ${reasonEnquiry}
 
     You can reach them on: ${phone}   
     `,
