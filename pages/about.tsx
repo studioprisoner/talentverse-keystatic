@@ -53,7 +53,7 @@ export default function About(){
                         {values.map((stat, statIdx) => (
                             <div key={statIdx}>
                             <dt className="mt-2 text-xl font-bold leading-10 tracking-tight uppercase sm:text-3xl text-shark-700">{stat.label}</dt>
-                            <dd className="text-sm leading-6 tracking-tight text-gray-400">{stat.value}</dd>
+                            <dd className="text-sm leading-6 tracking-tighter text-gray-400 sm:tracking-tight">{stat.value}</dd>
                             </div>
                         ))}
                         </dl>
