@@ -11,7 +11,7 @@ export default function Catchzone() {
             <Seo />
             <section className="px-6 pt-12 pb-12 mx-auto max-w-7xl lg:px-8 lg:pt-32">
                 <div className="text-base leading-7 text-gray-700 max-w-7xl lg:px-8">
-                    <p className="text-2xl font-semibold leading-7 uppercase text-malibu-300">Catchzone</p>
+                    <p className="text-lg font-semibold leading-7 uppercase sm:text-2xl text-malibu-300">Catchzone</p>
                     <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Talent Employment tailored for you</h1>
                     <p className="mt-6 text-xl leading-8">We understand workforce management challenges can slow business down. Our integrated hiring approach takes the worry away providing you key talent, when you need it.</p>
                     <p className="mt-6 text-xl leading-8">Through our Catchzone hiring platform we partner to deliver on your workforce needs.</p>

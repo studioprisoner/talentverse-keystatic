@@ -11,7 +11,7 @@ export default function Coffeecareer() {
             <Seo />
             <section className="px-6 pt-12 pb-12 mx-auto max-w-7xl lg:px-8 lg:pt-32">
                 <div className="text-base leading-7 text-gray-700 max-w-7xl lg:px-8">
-                    <p className="text-2xl font-semibold leading-7 uppercase text-malibu-300">Coffee &amp; Careers</p>
+                    <p className="text-lg font-semibold leading-7 uppercase sm:text-2xl text-malibu-300">Coffee &amp; Careers</p>
                     <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Talent Connection through the journey</h1>
                     <p className="mt-2 text-xl leading-8">Having an employment partner to help navigate through the total employment journey is comforting. We support the employer - employee connection through the pre- hire, onboarding, engagement and offboarding stages.</p>
                     <p className="mt-2 text-xl leading-8">Using our Coffee & Careers platform and programs helps achieve greater retention outcomes.</p>
