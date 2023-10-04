@@ -11,7 +11,7 @@ export default function Bizcrew() {
             <Seo />
             <section className="px-6 pt-12 pb-12 mx-auto max-w-7xl lg:px-8 lg:pt-32">
                 <div className="text-base leading-7 text-gray-700 max-w-7xl lg:px-8">
-                    <p className="text-2xl font-semibold leading-7 uppercase text-malibu-300">Bizcrew</p>
+                    <p className="text-lg font-semibold leading-7 uppercase sm:text-2xl text-malibu-300">Bizcrew</p>
                     <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Experts Co-Piloting with you</h1>
                     <p className="mt-6 text-xl leading-8">
                     We are workforce strategy specialists who solve employment attraction and retention challenges. Our mission is to co-pilot with you to build better employment connection outcomes.

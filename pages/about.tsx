@@ -41,7 +41,6 @@ export default function About(){
                                 <h2 className="mt-2 text-2xl font-semibold tracking-tight text-shark-700 sm:text-4xl">Approach</h2>
                                 <p className="mt-2">We bring a proactive, data-driven approach to employing and onboarding talent. Through our workplace pulse reviews, we identify early, any pre-hire and onboarding risks. This feedback helps us co-create a tailored workforce plan for you.</p>
                                 <p className="mt-2">To support implementation, we provide teams change ready mentoring and support through our integrated service platforms.</p>
-                                <p>To support implementation, we provide hiring teams change ready mentoring and support through our integrated service platforms.</p>
                                 <h2 className="mt-2 text-2xl font-semibold tracking-tight text-shark-700 sm:text-4xl">Mission</h2>
                                 <p className="text-base italic text-malibu-300">Navigating friction-free employment experiences.</p>
                                 <p className="mt-2">The talent hiring market and candidate economy is increasingly evolving away from one-fits-all recruitment approaches, towards a more unbiased and friction-free employment experience.</p>

@@ -39,24 +39,6 @@ export default function ConnectEmployer() {
                                 </dd>
                             </div>
                         </div>
-                        <div className="px-6 mx-auto max-w-7xl">
-                            <div className="flex flex-col">
-                                <dt className="flex items-center pb-2 text-2xl font-bold leading-7 text-malibu-300 gap-x-3">
-                                Client Information
-                                </dt>
-                                <dd className="text-shark-700">We provide client information on request</dd>
-                                <dd className="flex flex-col flex-auto mt-4 text-base leading-7 text-shark-500">
-                                    <ul className="list-disc list-inside">
-                                        <li>Privacy Policy</li>
-                                        <li>Terms of Business</li>
-                                        <li>Insurances Cover</li>
-                                        <li>Work Health &amp; Safety</li>
-                                        <li>Human Resources &amp; Payroll Support</li>
-                                    </ul>
-                                </dd>
-                            </div>
-                        </div>
-
                     </div>
                     
                 </div>

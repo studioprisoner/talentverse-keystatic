@@ -168,7 +168,7 @@ export const SeekerContactForm = () => {
                         </fieldset>
                     </div>
                     <div className="sm:col-span-4">
-                        <label className="block text-base font-semibold text-shark-700">JCareer Connect Enquiry</label>
+                        <label className="block text-base font-semibold text-shark-700">Career Connect Enquiry</label>
                         <fieldset className="mt-4">
                             <legend className="sr-only">Career Connect Enquiry</legend>
                             <div className="space-y-4" onChange={(e) => setRadioGroup(e.target.value)}>
