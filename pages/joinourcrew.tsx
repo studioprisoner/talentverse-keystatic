@@ -16,7 +16,7 @@ export default function JoinOurCrew() {
                     </div>
                     <div className="max-w-2xl pb-10 mx-auto lg:max-w-none">
                         <p className="pb-4 text-base text-shark-500">We welcome you to connect.</p>
-                        <div className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-8 sm:gap-y-16 lg:max-w-none lg:grid-cols-3">
+                        <div className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-6 sm:gap-y-16 lg:max-w-none lg:grid-cols-3">
                             <div className="flex flex-col">
                                 <dt className="flex items-center text-base font-semibold leading-7 text-malibu-300 gap-x-3">
                                    Become a TV Partner
